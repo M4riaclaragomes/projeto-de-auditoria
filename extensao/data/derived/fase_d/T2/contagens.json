@@ -1,0 +1,28 @@
+{
+ "coorte": "T2",
+ "janela_publicacao": [
+  "2025-03-17",
+  "2025-11-19"
+ ],
+ "decisoes": [
+  "2025-03-24",
+  "2026-06-15",
+  65
+ ],
+ "modelo_epss": "v2025.03.14",
+ "publicadas_na_janela": 33472,
+ "excluidas_rejected": 1325,
+ "excluidas_sem_epss": 1,
+ "incluidas": 32146,
+ "status_das_incluidas": {
+  "Analyzed": 16438,
+  "Deferred": 11535,
+  "Modified": 4156,
+  "Undergoing Analysis": 16,
+  "Awaiting Analysis": 1
+ },
+ "dias_sem_arquivo_epss": [],
+ "versoes_epss_lidas": [
+  "v2025.03.14"
+ ]
+}

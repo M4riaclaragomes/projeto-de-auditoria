@@ -1,0 +1,14 @@
+{
+ "rotulo": "pós-hoc, exploratório",
+ "kev_so_DIN1_vs_EST": 15,
+ "percentil_entrada_mediana": 0.1042499989271164,
+ "percentil_entrada_max": 0.2751300036907196,
+ "salto_entrada_ate_selecao_min": 0.1884700059890747,
+ "salto_entrada_ate_selecao_mediana": 0.6592799425125122,
+ "salto_ultima_semana_mediana": 0.5996999740600586,
+ "variacao_semanal_abs_todas_visiveis": {
+  "mediana": 0.0009400099515914917,
+  "p90": 0.0028100013732910156,
+  "p99": 0.10663998126983643
+ }
+}

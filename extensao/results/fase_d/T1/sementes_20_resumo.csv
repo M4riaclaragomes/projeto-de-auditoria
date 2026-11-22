@@ -1,0 +1,10 @@
+,semente,semente,semente,N_A,N_A,N_A,N_folga_ge_30,N_folga_ge_30,N_folga_ge_30,revisoes_total,revisoes_total,revisoes_total
+,min,median,max,min,median,max,min,median,max,min,median,max
+politica,,,,,,,,,,,,
+DIN-1,0,9.5,19,2,2.0,2,0,0.0,0,382,387.0,391
+DIN-2,0,9.5,19,2,2.0,2,0,0.0,0,357,363.5,370
+DIN-4,0,9.5,19,2,2.0,2,0,0.0,0,362,365.0,369
+"DIN-ESTAB λ=0,3",0,9.5,19,2,2.0,2,0,0.0,0,57,66.0,67
+DIN-ESTAB λ=∞,0,9.5,19,1,1.0,1,0,0.0,0,0,0.0,0
+EST,0,9.5,19,3,3.0,3,1,1.0,1,420,420.0,420
+EST-travada,0,9.5,19,1,1.0,1,0,0.0,0,0,0.0,0

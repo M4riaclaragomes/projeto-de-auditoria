@@ -1,0 +1,31 @@
+{
+ "created_utc": "2026-11-21T23:20:45.702973+00:00",
+ "fase": "D (protocolo e coleta)",
+ "n_files": 6,
+ "files": [
+  {
+   "path": "freeze/protocolo_fase_d.md",
+   "sha256": "dca72aebe9b048a722cb558f32b67a4b7a4d6c4b57fe60b7455abfd326d3bb4d"
+  },
+  {
+   "path": "freeze/protocolo_fase_d.sha256",
+   "sha256": "42dad893825e52daba46eb47ba8f8b197b474f72b88338345d671e831d5a8940"
+  },
+  {
+   "path": "scripts/coleta_nvd.py",
+   "sha256": "c500dd4aff1449f1282461febf2b52c869828d650b44110ac7c76c605daad19d"
+  },
+  {
+   "path": "src/vulnprio/coorte_s.py",
+   "sha256": "9767ea109aa560acbfdc2dc127ccf7a7c59da00728292c03ed81a22d0fc089ae"
+  },
+  {
+   "path": "tests/test_fase_d_coleta.py",
+   "sha256": "5658010e85d9efe5ffbd79f5d7bb220e3523b575a1b8082f657e8525302b45cb"
+  },
+  {
+   "path": "README_FASE_D.md",
+   "sha256": "a6a86ea74f2c98033e15606a3afafdcf7d8a7c301ef3caee58f8fd9ce1d4fbab"
+  }
+ ]
+}

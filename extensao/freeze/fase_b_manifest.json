@@ -1,0 +1,166 @@
+{
+ "created_utc": "2026-11-21T22:52:09.672777+00:00",
+ "n_files": 40,
+ "files": [
+  {
+   "path": "src/vulnprio/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "src/vulnprio/config.py",
+   "sha256": "dcf1780e15de986d013ca43e34693867c8521fb4e024d85c6d4fb426b444b964"
+  },
+  {
+   "path": "src/vulnprio/dados.py",
+   "sha256": "b7cc2c97677c60253901880357dc0fd7ac30ab07917e8caf45aee40c01d212be"
+  },
+  {
+   "path": "src/vulnprio/estado.py",
+   "sha256": "8086ae4343aede3e8458c4efcd6bf88d3410a812aff1b1c69b50a6f6875234d8"
+  },
+  {
+   "path": "src/vulnprio/estrategias_artigo.py",
+   "sha256": "640336a49ae5fa6ea75867520788ba618167b16f22778f96b98ab51ad0b9baf9"
+  },
+  {
+   "path": "src/vulnprio/experimentos.py",
+   "sha256": "35eb3ee56b953e252045e8ccb9a1d39252db94f8d99146c19cbf5566cf8d91bd"
+  },
+  {
+   "path": "src/vulnprio/graficos.py",
+   "sha256": "b685d24879378e54d4eb326859547ce83c9247b7ba1d3747286274e6ed7de658"
+  },
+  {
+   "path": "src/vulnprio/metricas.py",
+   "sha256": "56f556b1934a0728756c8cb0777ef161c9ae1218436066b2124fbb9ab4dd6755"
+  },
+  {
+   "path": "src/vulnprio/politicas.py",
+   "sha256": "0a2efa439a6c172d4ebe10e207447b4c9fdce3ee929226337e4db688b0a8523e"
+  },
+  {
+   "path": "src/vulnprio/rotulos.py",
+   "sha256": "a0281ba22cfb78e15534c26b1b3583a278b630c8aed8cda27f17001c8ddb4dcb"
+  },
+  {
+   "path": "src/vulnprio/simulador.py",
+   "sha256": "9be902e7f8c756d558737068953ee8f99183719296169dbb5bd6cc8fe36b5736"
+  },
+  {
+   "path": "tests/test_integridade.py",
+   "sha256": "b16aeea5f993682fc431256a39b08b92df387648182d2636bf6f44c5e487d9d5"
+  },
+  {
+   "path": "freeze/protocolo_fase_b_congelado.md",
+   "sha256": "b94dbc1016eac45b99bb702cb20900adf403f02c91245648d06d938883da74c9"
+  },
+  {
+   "path": "freeze/protocolo_fase_b_congelado.sha256",
+   "sha256": "3d517976cb25e3cf4c3a71b596d203745a858dd8e4794e3f229edd33bfc66d4e"
+  },
+  {
+   "path": "freeze/fase_a_manifest.json",
+   "sha256": "d9777a2edfb0ddc2a2286b5926f303753df307f81118df471e8b161d8d7d979c"
+  },
+  {
+   "path": "results/fase_b_2024/acertos_artigo_reconhecer_vs_antecipar.csv",
+   "sha256": "009b834f8079dc1d74013cd91d6eb20f9e7c5800036bf1140db955d1c824876f"
+  },
+  {
+   "path": "results/fase_b_2024/ambiente.json",
+   "sha256": "d4160e43b3ce15d91e754b0cd998140fcdf933e9254444cbb33251eaa93609d2"
+  },
+  {
+   "path": "results/fase_b_2024/chegadas_por_semana.csv",
+   "sha256": "b7020338a189044e4c05ef1a9e96012e56105c31aff6518c3b6d335ac59a5509"
+  },
+  {
+   "path": "results/fase_b_2024/comparacao_EST_DIN_por_K.csv",
+   "sha256": "a2c736e5ee4cff374d2a948ce9d82cd9810db70402c561dd92a2283558c4dc27"
+  },
+  {
+   "path": "results/fase_b_2024/descritivo.json",
+   "sha256": "aa7075e0fca79e79c3c40a720620afecdea929584017fdd12c8f306b57fc5290"
+  },
+  {
+   "path": "results/fase_b_2024/estatistica_mcnemar_bootstrap.csv",
+   "sha256": "5ae5d061f13aad8b0f74cc7eff353ebc1206d7d1a025c79a32d14429967f32c1"
+  },
+  {
+   "path": "results/fase_b_2024/eventos_A_por_K.csv",
+   "sha256": "27a48ddf52b9abdee4f89a237dd06968c0820fd6070fb5fef5dd2c7404efea91"
+  },
+  {
+   "path": "results/fase_b_2024/h3_atraso_omega.csv",
+   "sha256": "84afe2ac3ac90286c071eeb7e789cddb56a8d2684c2aca4ff856a57fc1bdb108"
+  },
+  {
+   "path": "results/fase_b_2024/log_semanal.csv.gz",
+   "sha256": "4c694ffdc1685d81f1adcb54eb2c98146ad086a4fd170fb79144f5e3cfe0c57a"
+  },
+  {
+   "path": "results/fase_b_2024/perfil_A_T_vs_A_pos.csv",
+   "sha256": "6b5d192a90c70bcce0bfc81c22de2c9a902ff7e90a55746f7256f9e3da79603f"
+  },
+  {
+   "path": "results/fase_b_2024/resumo_por_politica_K.csv",
+   "sha256": "c47345e38e8ffa32cb0ad481b7a69e25e826adaf3abba7259b6acb6e5c901c9a"
+  },
+  {
+   "path": "results/fase_b_2024/sementes_20.csv",
+   "sha256": "48bc3c55680571d50ad23ff1423b71d5042420788ccde86ee6f17ef68c281157"
+  },
+  {
+   "path": "results/fase_b_2024/sementes_20_resumo.csv",
+   "sha256": "3a134d597c1946c29c65ec10d78a583c81a93ced14506678aa9db2872668b414"
+  },
+  {
+   "path": "results/fase_b_2024/figuras/f1_kev_antecipados_por_K.png",
+   "sha256": "9161cb9aba857286bb6b0125e1a005b0dda295d4765cbdc2b58f7dead8926df7"
+  },
+  {
+   "path": "results/fase_b_2024/figuras/f2_delta_recall_IC95.png",
+   "sha256": "0f8f254c6b7cfb3235dc83e2d7a584a46c64690cf2be0596963baaec08063360"
+  },
+  {
+   "path": "results/fase_b_2024/figuras/f3_estabilidade_semanal_K50.png",
+   "sha256": "890e7003abd0f14084ee410b880696ab148eb4f33ab975f3e14ef23edfcd02be"
+  },
+  {
+   "path": "results/fase_b_2024/figuras/f4_antecedencia_K50.png",
+   "sha256": "83ab01b49bfd611f8543c8c9690dc81ac6194e0dbe13bbc3398a8a0363e2c8b1"
+  },
+  {
+   "path": "docs/REGISTRO_DE_DESVIOS.md",
+   "sha256": "bf5e5d51d1dac22b1195924f52165d9b869aba2beedf93ff31e4a9de7d941364"
+  },
+  {
+   "path": "scripts/coleta_epss_diario.py",
+   "sha256": "0d692f9dbfc3d5f667b717adbffe013fe4d75d384e9d6375acd83c4fe646f28a"
+  },
+  {
+   "path": "scripts/coleta_kev.py",
+   "sha256": "c400e596f89249f50b4914447ec988f116354682d4e37039aae21e8931554bb1"
+  },
+  {
+   "path": "rodar_tudo.sh",
+   "sha256": "dfddb85754d5a3faa5a893e3685159ec40054bbcbb89d7fb12f4418071a311ae"
+  },
+  {
+   "path": "README.md",
+   "sha256": "bc8a81550f90af88f42fa10d80086d116613ba2744b679d25eab5e1a77988049"
+  },
+  {
+   "path": "requirements.txt",
+   "sha256": "5e2f99915ff5d38b0bcff2a3298a5450e636f8f1f6a690bc331b4edb8e3ec80a"
+  },
+  {
+   "path": "data/derived/coorte_2024.csv.gz",
+   "sha256": "060885b21de48ed4943fbf2f81960b42758a313fbe954c4074d0ccc0888e0583"
+  },
+  {
+   "path": "data/derived/epss_semanal.npz",
+   "sha256": "8ffad0c46e120ce28dc02852df1be7f96fd0a80343af63c26bbd8c10f3551b99"
+  }
+ ]
+}

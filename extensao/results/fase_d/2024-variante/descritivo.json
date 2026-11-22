@@ -1,0 +1,21 @@
+{
+ "coorte": "2024-variante",
+ "papel": "exploratória",
+ "contagens": {
+  "coorte": "2024-variante",
+  "incluidas": 32173
+ },
+ "n_decisoes": 63,
+ "primeira_decisao": "2024-01-01",
+ "ultima_decisao": "2025-03-10",
+ "kev_no_catalogo": 161,
+ "y_positivos": 109,
+ "conhecidos_na_entrada": 63,
+ "A": 86,
+ "A_T": 73,
+ "A_pos": 13,
+ "tardios": 12,
+ "nunca_elegiveis": 2,
+ "atraso_mediano_A": 48.0,
+ "omega_mediano_A": 7.0
+}

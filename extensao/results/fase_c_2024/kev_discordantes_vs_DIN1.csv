@@ -1,0 +1,21 @@
+config,cve,tipo,atraso_dias,omega,A_T,folga_config,folga_DIN1
+EST,CVE-2024-11120,ganha_vs_DIN1,173.0,17,False,163.0,
+EST,CVE-2024-1212,perde_vs_DIN1,271.0,39,True,,238.0
+EST,CVE-2024-20439,perde_vs_DIN1,208.0,27,False,,196.0
+EST,CVE-2024-23113,perde_vs_DIN1,237.0,34,True,,177.0
+EST,CVE-2024-23692,perde_vs_DIN1,39.0,6,True,,22.0
+EST,CVE-2024-27348,perde_vs_DIN1,149.0,21,True,,16.0
+EST,CVE-2024-29059,perde_vs_DIN1,318.0,46,True,,288.0
+EST,CVE-2024-29824,ganha_vs_DIN1,124.0,18,True,58.0,
+EST,CVE-2024-29988,perde_vs_DIN1,21.0,3,True,,8.0
+EST,CVE-2024-32113,perde_vs_DIN1,91.0,13,True,,72.0
+EST,CVE-2024-38856,ganha_vs_DIN1,22.0,3,True,15.0,
+EST,CVE-2024-42009,perde_vs_DIN1,308.0,31,False,,273.0
+EST,CVE-2024-4885,perde_vs_DIN1,251.0,36,True,,175.0
+EST,CVE-2024-49035,perde_vs_DIN1,91.0,13,True,,43.0
+EST,CVE-2024-5910,perde_vs_DIN1,120.0,17,True,,17.0
+EST,CVE-2024-6670,perde_vs_DIN1,18.0,3,True,,7.0
+EST,CVE-2024-7593,perde_vs_DIN1,42.0,6,True,,22.0
+EST,CVE-2024-9465,perde_vs_DIN1,36.0,5,True,,24.0
+DIN-ESTAB λ=∞,CVE-2024-36401,perde_vs_DIN1,14.0,2,True,0.0,7.0
+DIN-ESTAB λ=∞,CVE-2024-6670,perde_vs_DIN1,18.0,3,True,0.0,7.0

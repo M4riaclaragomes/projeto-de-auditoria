@@ -1,0 +1,45 @@
+{
+ "coorte": "T1",
+ "papel": "descritiva",
+ "contagens": {
+  "coorte": "T1",
+  "janela_publicacao": [
+   "2025-01-01",
+   "2025-03-16"
+  ],
+  "decisoes": [
+   "2025-01-06",
+   "2025-03-17",
+   11
+  ],
+  "modelo_epss": "v2023.03.01",
+  "publicadas_na_janela": 10055,
+  "excluidas_rejected": 313,
+  "excluidas_sem_epss": 24,
+  "incluidas": 9718,
+  "status_das_incluidas": {
+   "Analyzed": 4567,
+   "Deferred": 3348,
+   "Modified": 1803
+  },
+  "dias_sem_arquivo_epss": [
+   "2024-12-01"
+  ],
+  "versoes_epss_lidas": [
+   "v2023.03.01"
+  ]
+ },
+ "n_decisoes": 11,
+ "primeira_decisao": "2025-01-06",
+ "ultima_decisao": "2025-03-17",
+ "kev_no_catalogo": 51,
+ "y_positivos": 33,
+ "conhecidos_na_entrada": 23,
+ "A": 26,
+ "A_T": 14,
+ "A_pos": 12,
+ "tardios": 2,
+ "nunca_elegiveis": 0,
+ "atraso_mediano_A": 35.0,
+ "omega_mediano_A": 2.0
+}

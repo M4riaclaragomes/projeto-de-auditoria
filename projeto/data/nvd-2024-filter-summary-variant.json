@@ -1,0 +1,40 @@
+{
+  "inputCorpus": "nvd-2024-filtered.jsonl",
+  "outputCorpus": "nvd-2024-filtered-variant.jsonl",
+  "expectedArticleCounts": {
+    "startingRecords": 40704,
+    "afterRejectedStatus": 39959,
+    "afterIncompleteAnalysisStatus": 32181,
+    "afterMissingCvss": 32154,
+    "afterMissingEpss": 31779
+  },
+  "epssDateRangeScanned": {
+    "startDate": "2024-01-01",
+    "endDate": "2025-03-19"
+  },
+  "epssSelectionRule": "For each CVE, select the first daily EPSS score whose score date is on or after the CVE publication date.",
+  "method": {
+    "excludedVulnStatus": "Deferred",
+    "cvssMetricVersionPreference": [
+      "cvssMetricV40",
+      "cvssMetricV31",
+      "cvssMetricV30",
+      "cvssMetricV2"
+    ],
+    "cvssTypePreference": [
+      "Secondary",
+      "Primary",
+      "first available"
+    ],
+    "cvssEntriesRequireDictionary": true,
+    "cvssEntriesRequireBaseScore": true
+  },
+  "counts": {
+    "startingRecords": 39934,
+    "removedDeferred": 7761,
+    "afterDeferred": 32173,
+    "removedWithoutCvss": 0,
+    "finalRecords": 32173,
+    "kevRecords": 160
+  }
+}

@@ -1,0 +1,55 @@
+{
+ "n_A": 86,
+ "N": {
+  "EST": 14,
+  "DIN-1": 27,
+  "DIN-ESTAB λ=∞": 25,
+  "DIN-ESTAB λ=0,3": 27,
+  "DIN-4": 27,
+  "DIN-2": 27,
+  "EST-travada": 13
+ },
+ "pares_discordantes_DIN1_EST": {
+  "DIN1_so": 15,
+  "EST_so": 2
+ },
+ "mcnemar_exato_DIN1_vs_EST_p": 0.002349853515625,
+ "H_D1": {
+  "denominador_N_DIN1_menos_N_EST": 13,
+  "D": 1.25,
+  "D_limite_inf_95_unilateral": -1.5,
+  "D_limite_sup_95_unilateral": 3.75,
+  "rho_observada": 0.8461538461538461,
+  "rho_IC90_bootstrap": [
+   0.5833333333333334,
+   1.0
+  ],
+  "frac_replicas_denominador_positivo": 0.9998,
+  "criterio_descritivo_atingido": true,
+  "baixa_informacao": [],
+  "classe": "descritivamente atingida, estatisticamente inconclusiva",
+  "decisao_depende_de_ate_1_evento": false
+ },
+ "H_D2": {
+  "margem_delta": 3,
+  "avaliacao": "apenas descritiva (sequência fixa)",
+  "todos": {
+   "E": -2.0,
+   "lim_inf_95": -5.0,
+   "lim_sup_95": 0.0,
+   "classe": "inconclusiva",
+   "ganhos_lambda_inf": 0,
+   "perdas_lambda_inf": 2
+  },
+  "folga_ge_30": {
+   "E": -2.0,
+   "lim_inf_95": -5.0,
+   "lim_sup_95": 1.0,
+   "classe": "inconclusiva",
+   "ganhos_lambda_inf": 1,
+   "perdas_lambda_inf": 3
+  },
+  "decisao_depende_de_ate_1_evento": false
+ },
+ "papel": "exploratória (ponte)"
+}

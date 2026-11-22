@@ -1,0 +1,11 @@
+{
+ "n_cves": 32173,
+ "n_dias": 441,
+ "dias_sem_arquivo": [
+  "2024-12-01"
+ ],
+ "n_semanas": 63,
+ "cves_sem_epss_ate_t_fim": 2,
+ "observacoes_obsoletas_por_semana_max": 2474,
+ "kev_no_catalogo": 161
+}

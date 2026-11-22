@@ -1,0 +1,18 @@
+# Ambientes e caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Dados brutos grandes (recriaveis pelos scripts de coleta; ver CONTINUIDADE.md)
+# O catalogo KEV congelado (extensao/data/raw/kev/) e pequeno e FICA versionado.
+extensao/data/raw/*
+!extensao/data/raw/kev/
+projeto/data/nvd-2024-raw/
+projeto/data/nvd-2024-filtered.jsonl
+projeto/data/nvd-2024-filtered-variant.jsonl
+
+# Sistema
+.DS_Store
+Thumbs.db

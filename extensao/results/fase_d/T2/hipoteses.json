@@ -1,0 +1,57 @@
+{
+ "n_A": 79,
+ "N": {
+  "EST": 26,
+  "DIN-1": 29,
+  "DIN-ESTAB λ=∞": 24,
+  "DIN-ESTAB λ=0,3": 26,
+  "DIN-4": 27,
+  "DIN-2": 28,
+  "EST-travada": 17
+ },
+ "pares_discordantes_DIN1_EST": {
+  "DIN1_so": 9,
+  "EST_so": 6
+ },
+ "mcnemar_exato_DIN1_vs_EST_p": 0.6072387695312499,
+ "H_D1": {
+  "denominador_N_DIN1_menos_N_EST": 3,
+  "D": -4.25,
+  "D_limite_inf_95_unilateral": -8.0,
+  "D_limite_sup_95_unilateral": -0.75,
+  "rho_observada": -0.6666666666666666,
+  "rho_IC90_bootstrap": [
+   -4.0,
+   0.6666666666666666
+  ],
+  "frac_replicas_denominador_positivo": 0.7534,
+  "criterio_descritivo_atingido": false,
+  "baixa_informacao": [
+   "N_DIN1 − N_EST = 3 < 5"
+  ],
+  "classe": "inconclusivo por poucos eventos",
+  "decisao_depende_de_ate_1_evento": false
+ },
+ "H_D2": {
+  "margem_delta": 3,
+  "avaliacao": "apenas descritiva (sequência fixa)",
+  "todos": {
+   "E": -3.0,
+   "lim_inf_95": -8.0,
+   "lim_sup_95": 2.0,
+   "classe": "inconclusiva",
+   "ganhos_lambda_inf": 3,
+   "perdas_lambda_inf": 6
+  },
+  "folga_ge_30": {
+   "E": 1.0,
+   "lim_inf_95": 0.0,
+   "lim_sup_95": 3.0,
+   "classe": "não inferioridade sustentada",
+   "ganhos_lambda_inf": 1,
+   "perdas_lambda_inf": 0
+  },
+  "decisao_depende_de_ate_1_evento": false
+ },
+ "papel": "CONFIRMATÓRIA"
+}

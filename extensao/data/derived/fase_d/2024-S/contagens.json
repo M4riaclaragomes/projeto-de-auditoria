@@ -1,0 +1,29 @@
+{
+ "coorte": "2024-S",
+ "janela_publicacao": [
+  "2024-01-01",
+  "2024-12-31"
+ ],
+ "decisoes": [
+  "2024-01-01",
+  "2025-03-10",
+  63
+ ],
+ "modelo_epss": "v2023.03.01",
+ "publicadas_na_janela": 40704,
+ "excluidas_rejected": 751,
+ "excluidas_sem_epss": 2,
+ "incluidas": 39951,
+ "status_das_incluidas": {
+  "Analyzed": 17694,
+  "Modified": 14477,
+  "Deferred": 7769,
+  "Undergoing Analysis": 11
+ },
+ "dias_sem_arquivo_epss": [
+  "2024-12-01"
+ ],
+ "versoes_epss_lidas": [
+  "v2023.03.01"
+ ]
+}

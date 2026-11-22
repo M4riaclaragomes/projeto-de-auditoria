@@ -1,0 +1,3 @@
+# Preserva os bytes exatos de todos os arquivos (sem conversao LF/CRLF).
+# Necessario: protocolos e manifestos congelados sao verificados por SHA-256.
+* -text

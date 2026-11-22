@@ -1,0 +1,45 @@
+{
+ "coorte": "T2",
+ "papel": "CONFIRMATÓRIA",
+ "contagens": {
+  "coorte": "T2",
+  "janela_publicacao": [
+   "2025-03-17",
+   "2025-11-19"
+  ],
+  "decisoes": [
+   "2025-03-24",
+   "2026-06-15",
+   65
+  ],
+  "modelo_epss": "v2025.03.14",
+  "publicadas_na_janela": 33472,
+  "excluidas_rejected": 1325,
+  "excluidas_sem_epss": 1,
+  "incluidas": 32146,
+  "status_das_incluidas": {
+   "Analyzed": 16438,
+   "Deferred": 11535,
+   "Modified": 4156,
+   "Undergoing Analysis": 16,
+   "Awaiting Analysis": 1
+  },
+  "dias_sem_arquivo_epss": [],
+  "versoes_epss_lidas": [
+   "v2025.03.14"
+  ]
+ },
+ "n_decisoes": 65,
+ "primeira_decisao": "2025-03-24",
+ "ultima_decisao": "2026-06-15",
+ "kev_no_catalogo": 123,
+ "y_positivos": 94,
+ "conhecidos_na_entrada": 39,
+ "A": 79,
+ "A_T": 78,
+ "A_pos": 1,
+ "tardios": 5,
+ "nunca_elegiveis": 0,
+ "atraso_mediano_A": 34.0,
+ "omega_mediano_A": 5.0
+}

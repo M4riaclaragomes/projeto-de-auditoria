@@ -1,0 +1,4 @@
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_integridade.py:223: EST+30 fora do escopo da entrega de 22/11 (registro de desvios)
+SKIPPED [1] tests/test_integridade.py:228: Fila obrigatória (KEV consumindo capacidade) fora do escopo da entrega de 22/11
+57 passed, 2 skipped in 73.23s (0:01:13)

@@ -1,0 +1,38 @@
+{
+ "hipoteses": {
+  "H1": {
+   "reducao_revisoes_lambda_0.01": 0.09421965317919079,
+   "criterio": ">= 0.25",
+   "situacao": "refutada"
+  },
+  "H2": {
+   "N_lambda_0.01": 27,
+   "criterio": ">= 24",
+   "situacao": "sustentada"
+  },
+  "H3": {
+   "N_lambda_inf": 25,
+   "N_DIN1": 27,
+   "perda": 2,
+   "N30_lambda_inf": 16,
+   "N30_DIN1": 19,
+   "situacao": "refutada"
+  }
+ },
+ "regra_escolha": {
+  "lambda_escolhido": 2.0,
+  "config": "DIN-ESTAB λ=∞",
+  "N_A": 25,
+  "revisoes_total": 0,
+  "candidatos": [
+   "DIN-ESTAB λ=0.001",
+   "DIN-ESTAB λ=0.003",
+   "DIN-ESTAB λ=0.01",
+   "DIN-ESTAB λ=0.03",
+   "DIN-ESTAB λ=0.1",
+   "DIN-ESTAB λ=0.3",
+   "DIN-ESTAB λ=∞"
+  ],
+  "observacao": "Escolha exploratória na coorte de 2024; confirmação só na Fase D, sem recalibração."
+ }
+}

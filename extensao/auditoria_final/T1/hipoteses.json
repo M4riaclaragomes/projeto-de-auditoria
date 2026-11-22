@@ -1,0 +1,47 @@
+{
+ "n_A": 26,
+ "N": {
+  "EST": 3,
+  "DIN-1": 2,
+  "DIN-ESTAB λ=∞": 1,
+  "DIN-ESTAB λ=0,3": 2,
+  "DIN-4": 2,
+  "DIN-2": 2,
+  "EST-travada": 1
+ },
+ "pares_discordantes_DIN1_EST": {
+  "DIN1_so": 0,
+  "EST_so": 1
+ },
+ "mcnemar_exato_DIN1_vs_EST_p": 1.0,
+ "H_D1": {
+  "denominador_N_DIN1_menos_N_EST": -1,
+  "D": -1.25,
+  "D_limite_inf_95_unilateral": -3.25,
+  "D_limite_sup_95_unilateral": 0.0,
+  "classe": "não avaliável",
+  "decisao_depende_de_ate_1_evento": false
+ },
+ "H_D2": {
+  "margem_delta": 2,
+  "avaliacao": "apenas descritiva (sequência fixa)",
+  "todos": {
+   "E": -1.0,
+   "lim_inf_95": -3.0,
+   "lim_sup_95": 0.0,
+   "classe": "inconclusiva",
+   "ganhos_lambda_inf": 0,
+   "perdas_lambda_inf": 1
+  },
+  "folga_ge_30": {
+   "E": 0.0,
+   "lim_inf_95": 0.0,
+   "lim_sup_95": 0.0,
+   "classe": "não inferioridade sustentada",
+   "ganhos_lambda_inf": 0,
+   "perdas_lambda_inf": 0
+  },
+  "decisao_depende_de_ate_1_evento": true
+ },
+ "papel": "descritiva"
+}

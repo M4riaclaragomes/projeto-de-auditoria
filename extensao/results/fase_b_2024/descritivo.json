@@ -1,0 +1,32 @@
+{
+ "n_cves": 32173,
+ "n_semanas_decisao": 63,
+ "primeira_decisao": "2024-01-01",
+ "ultima_decisao": "2025-03-10",
+ "kev_no_catalogo_F": 161,
+ "kev_rotulo_y": 109,
+ "conhecidos_na_entrada": 63,
+ "tardios": 12,
+ "A": 86,
+ "A_T": 73,
+ "A_pos": 13,
+ "nunca_visiveis_ate_T_fim": 2,
+ "chegadas_media_semanal": 518.8870967741935,
+ "chegadas_mediana_semanal": 532.0,
+ "A_por_atraso": {
+  "(0, 7]": 15,
+  "(7, 30]": 17,
+  "(30, 90]": 18,
+  "(90, 365]": 36
+ },
+ "A_por_omega": {
+  "1": 17,
+  "2-4": 15,
+  "5-13": 25,
+  ">13": 29
+ },
+ "percentil_entrada_valor_mais_comum_frac": 0.018899008423735663,
+ "percentil_entrada_valores_distintos": 3007,
+ "score_entrada_le_0_0005_frac": 0.8188854008019146,
+ "score_entrada_gt_0_001_n": 970
+}

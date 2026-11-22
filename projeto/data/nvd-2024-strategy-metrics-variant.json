@@ -1,0 +1,311 @@
+{
+  "corpus": "data/nvd-2024-filtered-variant.jsonl",
+  "corpusRecords": 32173,
+  "kevDefinition": "cisaExploitAdd is not null",
+  "kevRecords": 160,
+  "metrics": "P=TP/(TP+FP); R=TP/(TP+FN); F1=2PR/(P+R); F2=5PR/(4P+R)",
+  "epssThresholdsAreStrict": true,
+  "combinedStrategiesUseEpssThreshold": 0.005,
+  "cvss10UsesExactEquality": true,
+  "strategies": [
+    {
+      "strategy": "CVSS 5.0",
+      "condition": "cvss >= 5",
+      "tp": 159,
+      "fp": 27996,
+      "fn": 1,
+      "tn": 4017,
+      "prioritizedTotal": 28155,
+      "precision": 0.005647309536494406,
+      "recall": 0.99375,
+      "f1": 0.01123079639766908,
+      "f2": 0.027608959888869595,
+      "article": {
+        "tp": 155,
+        "prioritizedTotal": 27715,
+        "f2": 0.0273
+      },
+      "comparison": {
+        "tpMatchesArticle": false,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": 0.030895988886959547
+      }
+    },
+    {
+      "strategy": "CVSS 7.0",
+      "condition": "cvss >= 7",
+      "tp": 133,
+      "fp": 14492,
+      "fn": 27,
+      "tn": 17521,
+      "prioritizedTotal": 14625,
+      "precision": 0.009094017094017094,
+      "recall": 0.83125,
+      "f1": 0.017991207304700708,
+      "f2": 0.04356370782836554,
+      "article": {
+        "tp": 130,
+        "prioritizedTotal": 13532,
+        "f2": 0.045899999999999996
+      },
+      "comparison": {
+        "tpMatchesArticle": false,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": -0.23362921716344598
+      }
+    },
+    {
+      "strategy": "CVSS 9.0",
+      "condition": "cvss >= 9",
+      "tp": 62,
+      "fp": 2832,
+      "fn": 98,
+      "tn": 29181,
+      "prioritizedTotal": 2894,
+      "precision": 0.021423635107118175,
+      "recall": 0.3875,
+      "f1": 0.04060248853962017,
+      "f2": 0.08771929824561403,
+      "article": {
+        "tp": 64,
+        "prioritizedTotal": 2714,
+        "f2": 0.0959
+      },
+      "comparison": {
+        "tpMatchesArticle": false,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": -0.8180701754385975
+      }
+    },
+    {
+      "strategy": "CVSS 10.0",
+      "condition": "cvss == 10",
+      "tp": 7,
+      "fp": 145,
+      "fn": 153,
+      "tn": 31868,
+      "prioritizedTotal": 152,
+      "precision": 0.046052631578947366,
+      "recall": 0.04375,
+      "f1": 0.04487179487179487,
+      "f2": 0.04419191919191919,
+      "article": {
+        "tp": 7,
+        "prioritizedTotal": 132,
+        "f2": 0.0463
+      },
+      "comparison": {
+        "tpMatchesArticle": true,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": -0.21080808080808033
+      }
+    },
+    {
+      "strategy": "EPSS 0.05%",
+      "condition": "epss > 0.0005",
+      "tp": 60,
+      "fp": 3379,
+      "fn": 100,
+      "tn": 28634,
+      "prioritizedTotal": 3439,
+      "precision": 0.017446932247746436,
+      "recall": 0.375,
+      "f1": 0.033342595165323695,
+      "f2": 0.07354743809757293,
+      "article": {
+        "tp": 62,
+        "prioritizedTotal": 3740,
+        "f2": 0.071
+      },
+      "comparison": {
+        "tpMatchesArticle": false,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": 0.2547438097572936
+      }
+    },
+    {
+      "strategy": "EPSS 0.10%",
+      "condition": "epss > 0.001",
+      "tp": 41,
+      "fp": 275,
+      "fn": 119,
+      "tn": 31738,
+      "prioritizedTotal": 316,
+      "precision": 0.12974683544303797,
+      "recall": 0.25625,
+      "f1": 0.17226890756302518,
+      "f2": 0.21443514644351463,
+      "article": {
+        "tp": 41,
+        "prioritizedTotal": 309,
+        "f2": 0.21969999999999998
+      },
+      "comparison": {
+        "tpMatchesArticle": true,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": -0.5264853556485356
+      }
+    },
+    {
+      "strategy": "EPSS 0.50%",
+      "condition": "epss > 0.005",
+      "tp": 28,
+      "fp": 17,
+      "fn": 132,
+      "tn": 31996,
+      "prioritizedTotal": 45,
+      "precision": 0.6222222222222222,
+      "recall": 0.175,
+      "f1": 0.27317073170731704,
+      "f2": 0.20437956204379562,
+      "article": {
+        "tp": 28,
+        "prioritizedTotal": 44,
+        "f2": 0.2096
+      },
+      "comparison": {
+        "tpMatchesArticle": true,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": -0.5220437956204371
+      }
+    },
+    {
+      "strategy": "EPSS 1.00%",
+      "condition": "epss > 0.01",
+      "tp": 21,
+      "fp": 6,
+      "fn": 139,
+      "tn": 32007,
+      "prioritizedTotal": 27,
+      "precision": 0.7777777777777778,
+      "recall": 0.13125,
+      "f1": 0.22459893048128346,
+      "f2": 0.15742128935532232,
+      "article": {
+        "tp": 21,
+        "prioritizedTotal": 26,
+        "f2": 0.16149999999999998
+      },
+      "comparison": {
+        "tpMatchesArticle": true,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": -0.40787106446776633
+      }
+    },
+    {
+      "strategy": "EPSS 5.00%",
+      "condition": "epss > 0.05",
+      "tp": 4,
+      "fp": 1,
+      "fn": 156,
+      "tn": 32012,
+      "prioritizedTotal": 5,
+      "precision": 0.8,
+      "recall": 0.025,
+      "f1": 0.04848484848484849,
+      "f2": 0.031007751937984496,
+      "article": {
+        "tp": 4,
+        "prioritizedTotal": 5,
+        "f2": 0.0318
+      },
+      "comparison": {
+        "tpMatchesArticle": true,
+        "prioritizedTotalMatchesArticle": true,
+        "f2DifferencePercentagePoints": -0.07922480620155037
+      }
+    },
+    {
+      "strategy": "CVSS 7.0 AND EPSS 0.50%",
+      "condition": "cvss >= 7 and epss > 0.005",
+      "tp": 21,
+      "fp": 16,
+      "fn": 139,
+      "tn": 31997,
+      "prioritizedTotal": 37,
+      "precision": 0.5675675675675675,
+      "recall": 0.13125,
+      "f1": 0.21319796954314724,
+      "f2": 0.155096011816839,
+      "article": {
+        "tp": 21,
+        "prioritizedTotal": 36,
+        "f2": 0.1591
+      },
+      "comparison": {
+        "tpMatchesArticle": true,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": -0.40039881831610025
+      }
+    },
+    {
+      "strategy": "CVSS 9.0 AND EPSS 0.50%",
+      "condition": "cvss >= 9 and epss > 0.005",
+      "tp": 7,
+      "fp": 9,
+      "fn": 153,
+      "tn": 32004,
+      "prioritizedTotal": 16,
+      "precision": 0.4375,
+      "recall": 0.04375,
+      "f1": 0.07954545454545453,
+      "f2": 0.053353658536585365,
+      "article": {
+        "tp": 8,
+        "prioritizedTotal": 19,
+        "f2": 0.0622
+      },
+      "comparison": {
+        "tpMatchesArticle": false,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": -0.8846341463414635
+      }
+    },
+    {
+      "strategy": "CVSS 9.0 OR EPSS 0.50%",
+      "condition": "cvss >= 9 or epss > 0.005",
+      "tp": 83,
+      "fp": 2840,
+      "fn": 77,
+      "tn": 29173,
+      "prioritizedTotal": 2923,
+      "precision": 0.028395484091686622,
+      "recall": 0.51875,
+      "f1": 0.053843658773921506,
+      "f2": 0.11647488071849565,
+      "article": {
+        "tp": 84,
+        "prioritizedTotal": 2739,
+        "f2": 0.1249
+      },
+      "comparison": {
+        "tpMatchesArticle": false,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": -0.8425119281504347
+      }
+    },
+    {
+      "strategy": "CVSS 10.0 OR EPSS 0.50%",
+      "condition": "cvss == 10 or epss > 0.005",
+      "tp": 35,
+      "fp": 161,
+      "fn": 125,
+      "tn": 31852,
+      "prioritizedTotal": 196,
+      "precision": 0.17857142857142858,
+      "recall": 0.21875,
+      "f1": 0.19662921348314605,
+      "f2": 0.20933014354066987,
+      "article": {
+        "tp": 35,
+        "prioritizedTotal": 175,
+        "f2": 0.21899999999999997
+      },
+      "comparison": {
+        "tpMatchesArticle": true,
+        "prioritizedTotalMatchesArticle": false,
+        "f2DifferencePercentagePoints": -0.9669856459330113
+      }
+    }
+  ]
+}

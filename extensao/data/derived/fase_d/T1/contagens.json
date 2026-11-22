@@ -1,0 +1,28 @@
+{
+ "coorte": "T1",
+ "janela_publicacao": [
+  "2025-01-01",
+  "2025-03-16"
+ ],
+ "decisoes": [
+  "2025-01-06",
+  "2025-03-17",
+  11
+ ],
+ "modelo_epss": "v2023.03.01",
+ "publicadas_na_janela": 10055,
+ "excluidas_rejected": 313,
+ "excluidas_sem_epss": 24,
+ "incluidas": 9718,
+ "status_das_incluidas": {
+  "Analyzed": 4567,
+  "Deferred": 3348,
+  "Modified": 1803
+ },
+ "dias_sem_arquivo_epss": [
+  "2024-12-01"
+ ],
+ "versoes_epss_lidas": [
+  "v2023.03.01"
+ ]
+}

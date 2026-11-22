@@ -1,0 +1,91 @@
+{
+ "created_utc": "2026-11-21T23:10:47.107407+00:00",
+ "fase": "C",
+ "n_files": 21,
+ "files": [
+  {
+   "path": "src/vulnprio/politicas_c.py",
+   "sha256": "5e8c7be4f18eb4306d82a5e6c4b043578c205ef6f54c602e3041d93d58a1a823"
+  },
+  {
+   "path": "src/vulnprio/simulador_c.py",
+   "sha256": "c08c311e1b2e4ed0316cca102c4dab1acab5569eb756dec9254d32c5c47f0035"
+  },
+  {
+   "path": "src/vulnprio/experimentos_c.py",
+   "sha256": "d2f885eb47bd9fe265a23c8752930a52060f3db92e709324de32f185d22bba56"
+  },
+  {
+   "path": "src/vulnprio/graficos_c.py",
+   "sha256": "8d061dff7643af5922201615a4413fb1fc864fe1cef5b2d3d1a29f155bbb290f"
+  },
+  {
+   "path": "tests/test_fase_c.py",
+   "sha256": "5ee1c06cc9b6cb97a4ba0866f399806f442068afcf513c9f8c4a2fc97c1e7d1d"
+  },
+  {
+   "path": "freeze/protocolo_fase_c_preregistro.md",
+   "sha256": "52f48141cbbd163d4d56e0518979b85d039a607397597c17a95c4c05b016f9ac"
+  },
+  {
+   "path": "freeze/protocolo_fase_c_preregistro.sha256",
+   "sha256": "9f3a40c99badddf48cc2b43fd5bd4f9080bbe995274f92c5719389d39d9453d8"
+  },
+  {
+   "path": "freeze/fase_b_manifest.json",
+   "sha256": "4311ab165b798de9df4eadd6d9e26b4da8fbdb1273c7926775ec8fdfef7050f2"
+  },
+  {
+   "path": "results/fase_c_2024/ambiente.json",
+   "sha256": "0386a08a74283f95e014907b831630301115cb87f2f9335b0c5f6050a8f1cab2"
+  },
+  {
+   "path": "results/fase_c_2024/comparacoes_mcnemar_bootstrap.csv",
+   "sha256": "6a62fc19ea9d8bffc52b9a8103f2f17aa62448278f2bc303c9cd9c1a6c37fec7"
+  },
+  {
+   "path": "results/fase_c_2024/hipoteses_e_regra.json",
+   "sha256": "b10c8d9fcc04602c2fa3af099405141e6614eaae659ea8b6b495318adc31d93a"
+  },
+  {
+   "path": "results/fase_c_2024/kev_discordantes_vs_DIN1.csv",
+   "sha256": "7f297df36e6b68b34a828ee066a67a85ff1148b8f458d76480305c8f47a4b76f"
+  },
+  {
+   "path": "results/fase_c_2024/log_semanal_K50.csv.gz",
+   "sha256": "404952fda73e5663963551337382d2f1236c2b2950b15a93b4fa70a27efbf841"
+  },
+  {
+   "path": "results/fase_c_2024/mecanismo_saltos_posthoc.json",
+   "sha256": "ab4df29bf702d27a9a157e9f67cd9eafdaf948d035c0afe922708c85c94b820f"
+  },
+  {
+   "path": "results/fase_c_2024/resumo_configuracoes_K50.csv",
+   "sha256": "541c3906b63f870226c065b441867463c3eb79090a7fefafb9137f4bbf1985be"
+  },
+  {
+   "path": "results/fase_c_2024/sementes_20.csv",
+   "sha256": "1f5487081b04719c382ddad51988644cfadeded7a511915f5947056037341599"
+  },
+  {
+   "path": "results/fase_c_2024/testes_saida.txt",
+   "sha256": "fd23e8d24bc5df7297d445aa85e5b45105eab5e67a14c3dcf0d0e558041e78f5"
+  },
+  {
+   "path": "results/fase_c_2024/figuras/fc1_pareto_K50.png",
+   "sha256": "1a5837b3e7c8fda20846072137aedf3975de85c2aeb43343d1f3a5ac1448bcbc"
+  },
+  {
+   "path": "docs/REGISTRO_DE_DESVIOS_FASE_C.md",
+   "sha256": "71d168aa6e4d1ea2ec4687e0ebe07d08a048476b3ea9b53fca06fb7e5d5e3597"
+  },
+  {
+   "path": "README_FASE_C.md",
+   "sha256": "e78ca4308e2bc0dfdde1ee91a682280c5e2ae2e7c25fd3988177ab7828c11d5a"
+  },
+  {
+   "path": "rodar_fase_c.sh",
+   "sha256": "a39a9b915a00ef4aabcbee86d3e34f585e6e12d3f6577d3f253bac4208637121"
+  }
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "created_utc": "2026-11-22T01:25:51.727149+00:00",
+ "fase": "D (execução parcial: comparadores e exploratórios 2024; T1/T2 pendentes)",
+ "protocolo_sha256": "dca72aebe9b048a722cb558f32b67a4b7a4d6c4b57fe60b7455abfd326d3bb4d",
+ "n_files": 58,
+ "files": [
+  {
+   "path": "src/vulnprio/politicas_d.py",
+   "sha256": "071814a896ecc6e3d782b67ca0b916f302d5ff77a52d2cf38d0607d91a88062a"
+  },
+  {
+   "path": "src/vulnprio/dados_d.py",
+   "sha256": "a779cffae23d68e517ed32b333914ec2431b95b5aa5d631185ed0c9461861466"
+  },
+  {
+   "path": "src/vulnprio/experimentos_d.py",
+   "sha256": "de62f4695fe2a72a326e501ad76b06bed75d7dd347eaf569e5e02b2ed9e4fd54"
+  },
+  {
+   "path": "src/vulnprio/graficos_d.py",
+   "sha256": "8bcf40c179372b57caae46f872c37467e718f2b6fb5c3cef836f1eb9ab58b04f"
+  },
+  {
+   "path": "tests/test_fase_d_politicas.py",
+   "sha256": "394491809077dcdf6dc0be9d3e6393ea47d82a3d0c1e0d62c6610dbce7809001"
+  },
+  {
+   "path": "docs/REGISTRO_DE_DESVIOS_FASE_D.md",
+   "sha256": "6df31fc6a373242f669872e42840eed2bedf97383b36cae9d41e24f7ec853898"
+  },
+  {
+   "path": "data/raw/epss_daily_v4/manifest.json",
+   "sha256": "ff19078d37cb12b67363a1a89fcdb8bef8c587d9445a8cffa9d015cbb4a1fd42"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/descritivo.json",
+   "sha256": "17559b8e8f695c3f96e6d63455be767af44dca2c18b3d53366252297e784f70d"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/eventos_A.csv",
+   "sha256": "ea61bb770fe9b375ced170e60c6ff9c942eadada181fc1d91335865c694751d0"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/hipoteses.json",
+   "sha256": "704b098376f072724fe3b0df840440d07f484a8aa6b071d549040e98a97351ce"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/log_DIN-1.csv.gz",
+   "sha256": "30a7d250be61260c59966f8adfecda8407d6ec2d8f7671ba4a0672c3ce4256ae"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/log_DIN-2.csv.gz",
+   "sha256": "b88c36e6004e07c5ed229a3d5e8a3f4cc656345e80eb4daaa02808927c67a05c"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/log_DIN-4.csv.gz",
+   "sha256": "a2264e0a629610b1fcc848619e324795f969cca64b185b31d58a57870a39f495"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/log_DIN-ESTAB_λ0,3.csv.gz",
+   "sha256": "303d0e34fb5c14acc09e111efb6af006a03a638e6c6c1ac02450e98e3467080c"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/log_DIN-ESTAB_λ∞.csv.gz",
+   "sha256": "9ba19219ff6fdafcc3ac41e2f21fc3e3b65ca91e7c5a5e37470b874f596167bb"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/log_EST-travada.csv.gz",
+   "sha256": "e3b7a391d4dd7f1a4f0b22107b474e958854dd178a4be331ac02e66825c21264"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/log_EST.csv.gz",
+   "sha256": "7998751fb385ff1e79f5e4a83f787e3a956ac66d8e379886b678dcfe0b4c41f2"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/resumo_politicas_K50.csv",
+   "sha256": "9e3d8a3b1090e971eebc60be7bbf7f2d04b5b8e029ef1559a15df5c63af4910e"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/sementes_20.csv",
+   "sha256": "df24c5e07f7b20b51c4f63f604ec0a8e9e34399dced4b499be34724cedd8781d"
+  },
+  {
+   "path": "results/fase_d/2024-S+rej/sementes_20_resumo.csv",
+   "sha256": "6192e9c817752f06daeb291df2b15ee695df392104b7698e5792d570b8121492"
+  },
+  {
+   "path": "results/fase_d/2024-S/descritivo.json",
+   "sha256": "d5f11daeff80c2e5fd11d3e8aa3a9755c75647224f269bec75b94a6da93b2e93"
+  },
+  {
+   "path": "results/fase_d/2024-S/eventos_A.csv",
+   "sha256": "1da0c6b699e4e95d93d521af9a37d8a14b7efbfd990fc30f6a286380fc4556d1"
+  },
+  {
+   "path": "results/fase_d/2024-S/hipoteses.json",
+   "sha256": "44a68604f223d4a5963c5e714c254197520e7d4ca7cac4754b459e94c3f23f79"
+  },
+  {
+   "path": "results/fase_d/2024-S/log_DIN-1.csv.gz",
+   "sha256": "7119ec7f16785d9f79a1f5534e6c42c8a7f1af2b1d6ba1fd35d04b4e6c5aa08d"
+  },
+  {
+   "path": "results/fase_d/2024-S/log_DIN-2.csv.gz",
+   "sha256": "bdf8e0d74212f7c3e463838c0f99405f6c17dbbfa35ce262f6a0b9050745091a"
+  },
+  {
+   "path": "results/fase_d/2024-S/log_DIN-4.csv.gz",
+   "sha256": "cf822f77b4088ec3578947428fcb03ea9067a4fee755478edb268c6471974e98"
+  },
+  {
+   "path": "results/fase_d/2024-S/log_DIN-ESTAB_λ0,3.csv.gz",
+   "sha256": "4fa7cd8a8ef9a9b73984e706a7173074a85306fa1d7f103bde7509ca3e63855c"
+  },
+  {
+   "path": "results/fase_d/2024-S/log_DIN-ESTAB_λ∞.csv.gz",
+   "sha256": "b1a93a315736d03f9f74bef4296440b4937aa886936672f86c51921486ab5b38"
+  },
+  {
+   "path": "results/fase_d/2024-S/log_EST-travada.csv.gz",
+   "sha256": "0fb01c9d196b563fd9541d894d8e045447f0048904063fd4df46942cd17d82ed"
+  },
+  {
+   "path": "results/fase_d/2024-S/log_EST.csv.gz",
+   "sha256": "a94da1f1d3d288415cac931a21528eea91c4245305a99e0289a969c7f25da5e2"
+  },
+  {
+   "path": "results/fase_d/2024-S/resumo_politicas_K50.csv",
+   "sha256": "e78a9bb95f2341f3051771ebffce1dd43bdc7b1986e24aa7f7b4d0d4cad77713"
+  },
+  {
+   "path": "results/fase_d/2024-S/sementes_20.csv",
+   "sha256": "01ea6a8f1b8d0bc8250ecabe2357520337406890024fd8d7bbf476a5e9c4bab3"
+  },
+  {
+   "path": "results/fase_d/2024-S/sementes_20_resumo.csv",
+   "sha256": "438370438e3b9c4f69230118a37b901c1e816afd28f071f33957bc0b779fd99b"
+  },
+  {
+   "path": "results/fase_d/2024-variante/descritivo.json",
+   "sha256": "586079a050cec89c419deb7f9e0d63385d2b7bc4eb5af015a5c44043cce1fd99"
+  },
+  {
+   "path": "results/fase_d/2024-variante/eventos_A.csv",
+   "sha256": "3d858cef6c0356d26923d87cee1b84870c910ca6a3aef7ea1063fd05d3a18db2"
+  },
+  {
+   "path": "results/fase_d/2024-variante/hipoteses.json",
+   "sha256": "70e90b0bdf9727bbafcc23aecee9532b32dda85bf3c158366f82a84fc9206e6e"
+  },
+  {
+   "path": "results/fase_d/2024-variante/log_DIN-1.csv.gz",
+   "sha256": "ea4640b14e6a50e6afb21e3c6a6f189a13d6875bafd017ae06c89886d98b02a3"
+  },
+  {
+   "path": "results/fase_d/2024-variante/log_DIN-2.csv.gz",
+   "sha256": "979f8be508aa2fb429214db3bec56a5425e0df0d995e41ddc86e0940ac29c628"
+  },
+  {
+   "path": "results/fase_d/2024-variante/log_DIN-4.csv.gz",
+   "sha256": "bee7d508263021cbb0ec4877b013935ec66470048e8edb1271688f99337558d0"
+  },
+  {
+   "path": "results/fase_d/2024-variante/log_DIN-ESTAB_λ0,3.csv.gz",
+   "sha256": "892cd3d2f5af13bf6c19b5ea0b42dbe33960d9979a6e29fda986503aaf4038ee"
+  },
+  {
+   "path": "results/fase_d/2024-variante/log_DIN-ESTAB_λ∞.csv.gz",
+   "sha256": "8324f3113243a4c3491f808ca24537ab614416bc69e903680a167da5dfa83e72"
+  },
+  {
+   "path": "results/fase_d/2024-variante/log_EST-travada.csv.gz",
+   "sha256": "a504d9e95a6cd0cf57fd353388c704be8aa9a995656612d61b168b969501fb73"
+  },
+  {
+   "path": "results/fase_d/2024-variante/log_EST.csv.gz",
+   "sha256": "bdfb1d3edd33e36652288e9226227b9c5a0dbce39560197748ed3f37a9a1ec4e"
+  },
+  {
+   "path": "results/fase_d/2024-variante/resumo_politicas_K50.csv",
+   "sha256": "a29d27e8acdb6398cd6d53eda2cd956d6fa59b77fd95a08c289e49b47128c676"
+  },
+  {
+   "path": "results/fase_d/2024-variante/sementes_20.csv",
+   "sha256": "8b3e52941fd0dfe10c62a4fc9b4d21fe5836a8240b287946d358139a22faee8c"
+  },
+  {
+   "path": "results/fase_d/2024-variante/sementes_20_resumo.csv",
+   "sha256": "e7aaf7253b5356732efa4e43303df14492ca853e2476395f33167bc8584f048b"
+  },
+  {
+   "path": "results/fase_d/RELATORIO_FASE_D.md",
+   "sha256": "f6cb3ec12ff1e5bae931fefe984a0819a764e2d0357ca35155a5502b6c46a18e"
+  },
+  {
+   "path": "results/fase_d/comparacao_coortes_2024.csv",
+   "sha256": "bfebc71cb05205e2f240c780bd70c4805d1362af9ac024d5df52a76e8e2e75e9"
+  },
+  {
+   "path": "results/fase_d/eventos_A_diferentes_variante_vs_S.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "path": "results/fase_d/figuras/fd1_eficacia_vs_revisoes.png",
+   "sha256": "837dc7a2ef61426f26bb8ecdb063218bb6c93a22dd13c4d8ac3de82eeab5aa55"
+  },
+  {
+   "path": "results/fase_d/testes_saida.txt",
+   "sha256": "b2b8b4b387c3b26dcfdf59da2cf287d75213903cc83639cfd8c0a34b0e6cddeb"
+  },
+  {
+   "path": "results/fase_d/variante_vs_S_2024.json",
+   "sha256": "d38dd5e345eec5b4ef692f171c2dd6d59cae6df0faebc1a2d0f9a5fdf69eaa56"
+  },
+  {
+   "path": "data/derived/fase_d/2024-S+rej/contagens.json",
+   "sha256": "ec32d3a23b1378df6e56163328394f0ee83ffaeacbb5de8ba8ef120d3770c2e4"
+  },
+  {
+   "path": "data/derived/fase_d/2024-S+rej/coorte.csv.gz",
+   "sha256": "f945d6b1a224e81e9c308f71d350dd9b2bddd52cc7f49ad47ae5e46598e003b9"
+  },
+  {
+   "path": "data/derived/fase_d/2024-S+rej/epss_semanal.npz",
+   "sha256": "f887dc36d36b5b957ddd45dbf48f3d69c4eba5782872c4ea257a8571abbb0bb9"
+  },
+  {
+   "path": "data/derived/fase_d/2024-S/contagens.json",
+   "sha256": "08b4a4cfa1b80a948979b31bc95075389d1f82cb407f8bae2f6df02619a14b30"
+  },
+  {
+   "path": "data/derived/fase_d/2024-S/coorte.csv.gz",
+   "sha256": "ca8ad21b69d59dd3187d0c79c5c26c53e468c7faf8b5da5f80ad3aff99a9389c"
+  },
+  {
+   "path": "data/derived/fase_d/2024-S/epss_semanal.npz",
+   "sha256": "472e4ce68616c38f49d6150f01fb94d2a1084725ad24daa393bf066b69c9be86"
+  }
+ ]
+}

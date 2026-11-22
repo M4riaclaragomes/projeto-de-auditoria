@@ -15,13 +15,14 @@ resultados, reprodutível e preserva as fases anteriores sem modificá-las. Não
 | **A** | Auditoria da replicação original (coleta do NVD 2024, filtragem, histórico do EPSS, 13 estratégias por limiar) | `projeto/` |
 | **B** | Experimento EST × DIN-1 na coorte 2024 (fila ordenada pelo EPSS fixo na entrada × reordenada toda semana) | `extensao/` |
 | **C** | DIN-ESTAB: controle de estabilidade do plano semanal (bônus λ às CVEs já planejadas) | `extensao/` |
-| **D** | Validação temporal numa coorte independente de 2025 (EPSS v4). **Em andamento**: protocolo congelado, simulações ainda não confirmatórias | `extensao/` |
+| **D** | Validação temporal numa coorte independente de 2025 (EPSS v4). T1 e T2 têm resultados gravados; a H-D1 ficou inconclusiva por poucos eventos. Falta verificar se a T2 foi executada uma única vez (ver `extensao/docs/ATUALIZACAO_FASE_D_2026-11-22.md`) | `extensao/` |
 
 Resultados principais das Fases B e C (K = 50, coorte 2024), conforme os arquivos de resultados:
 
 - A DIN-1 antecipou 27 KEV contra 15 da EST (+14 p.p. de recall); a vantagem some com K = 500.
 - A DIN-ESTAB com λ = ∞ (plano travado) antecipa 25 KEV com zero revisões do plano (ΣR = 0).
-- Os resultados são preliminares: uma coorte, poucos eventos e um único catálogo KEV.
+- Na T2 (2025, 79 eventos, K = 50), a DIN-1 antecipou 29 KEV contra 26 da EST (+3; McNemar p = 0,61): a vantagem de 2024 não se repetiu com clareza. O plano travado antecipou 24, com zero revisões. A H-D1 ficou inconclusiva por poucos eventos.
+- Os resultados são preliminares: poucos eventos e um único catálogo KEV.
 
 Em caso de divergência entre este texto e um arquivo de resultados ou protocolo congelado, **vale o arquivo**.
 

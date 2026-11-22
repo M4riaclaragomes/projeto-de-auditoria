@@ -2,6 +2,8 @@
 
 Versão de 2026-11-21. Este documento permite retomar o projeto em outra conversa ou com outra ferramenta de IA sem reconstruir o histórico. Ele não contém resultados novos: todos os números abaixo vêm dos arquivos de resultados já gravados e congelados das Fases B e C. Em caso de divergência entre este texto e um arquivo de resultados ou protocolo congelado, vale o arquivo.
 
+> **Atualização de 2026-11-22:** as seções 2 e 5 abaixo (versão de 2026-11-21) dizem que a T1 e a T2 da Fase D ainda não foram executadas. Isso está desatualizado: `results/fase_d/T1/` e `results/fase_d/T2/` já existem. Veja `docs/ATUALIZACAO_FASE_D_2026-11-22.md` para os resultados gravados, as conferências feitas e o que ainda precisa ser verificado (por exemplo, se a T2 foi executada uma única vez, como exige o protocolo).
+
 ## 0. Contexto em um parágrafo
 
 O projeto parte da replicação do artigo "Evaluating Vulnerability Prioritization Strategies Based on CVSS and EPSS" (SBSeg 2026, Felipe Curty do Rego Pinto), feita como trabalho da disciplina na UFPE (prof. Jean Carlos T. de Araujo). A extensão investiga a priorização adaptativa de vulnerabilidades. A pergunta é como equilibrar três coisas quando a equipe só consegue corrigir K vulnerabilidades por semana: eficácia (antecipar as CVEs que depois entram no catálogo CISA KEV), estabilidade do plano de trabalho e o próprio orçamento limitado. O trabalho avança em fases. Cada fase é auditada, pré-registrada antes de ver os resultados, reprodutível e preserva as fases anteriores sem modificá-las. Não há aprendizado de máquina em nenhuma fase até agora, por decisão explícita.

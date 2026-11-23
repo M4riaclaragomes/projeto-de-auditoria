@@ -9,7 +9,7 @@ and EPSS* (SBSeg 2026), feita como trabalho da disciplina na UFPE.
   a fila de correção **semana a semana**, com limite de correções, e comparamos jeitos de montar a fila, inclusive
   um **plano travado** que não muda toda semana. Validamos numa base nova, de 2025.
 
-## O professor consegue rodar? Sim, em três níveis
+## Consigo rodar? Sim, em três níveis
 
 Não é preciso baixar nada para os níveis 1 e 2: os dados necessários estão no repositório.
 

@@ -73,3 +73,35 @@ H-D1 "não avaliável" (denominador −1). Com tão poucos eventos, nada pode se
 Os resultados confirmam o que o relatório parcial já antecipava: a T2 teria pouco poder para sustentar a H-D1. Em 2025
 a vantagem da DIN-1 sobre a EST é de +3 KEV (contra +12 em 2024), então a terceira contribuição do artigo (plano
 estável com boa eficácia) segue como hipótese **não confirmada**.
+
+## Ajustes feitos ao publicar o projeto no GitHub
+
+Para que outra pessoa consiga rodar o projeto a partir do repositório, foram feitos os ajustes abaixo. Nenhum
+arquivo congelado (protocolos, manifestos, código das Fases B a D, resultados) teve o conteúdo alterado.
+
+1. **Seis arquivos com nome corrompido foram renomeados.** Em `results/fase_d/2024-variante/`, `2024-S/` e
+   `2024-S+rej/`, os arquivos `log_DIN-ESTAB_λ0,3.csv.gz` e `log_DIN-ESTAB_λ∞.csv.gz` tinham chegado com o nome
+   truncado pela codificação (por exemplo, `╬╗Ôê×`). Voltaram ao nome que o código e o manifesto usam. O conteúdo é o mesmo.
+2. **Dados do NVD preservados em `dados_compactados/`** (2024: 23 páginas e dois corpus filtrados; 2025: 23 páginas),
+   em `.gz` e conferidos por SHA-256 contra os manifestos. O NVD muda com o tempo, então esses dados não são recriáveis.
+3. **Manifestos dos dados brutos versionados** (`epss_daily`, `epss_daily_v4`, `nvd-2025` e `nvd-2024-raw`), que
+   permitem conferir qualquer download do EPSS por SHA-256.
+4. **`verificar.py`, `tests/conftest.py` e `pytest.ini` adicionados.** O `conftest.py` só faz pular, com o motivo
+   escrito, os testes que dependem de arquivos fora do Git; nenhum teste foi alterado.
+5. **Windows e UTF-8.** Os módulos `experimentos_c` e `experimentos_d` gravam arquivos de texto com "λ" sem declarar a
+   codificação. No Windows o padrão (cp1252) falha com `UnicodeEncodeError`. Como o código está congelado, a solução é
+   rodar com `PYTHONUTF8=1`, o que o `verificar.py` faz sozinho.
+
+### Divergência já existente: manifesto do EPSS v4
+
+O `freeze/fase_d_execucao_parcial_manifest.json` (2026-11-22T01:25Z) registra para
+`data/raw/epss_daily_v4/manifest.json` o hash `ff19078d…`, mas o arquivo que veio no pacote tem hash `55de97d1…`.
+O arquivo lista os 455 diários do EPSS v4 (2025-03-17 a 2026-06-14), todos `v2025.03.14`, e parece ter sido reescrito
+depois do manifesto. A causa não foi confirmada. Não afeta os resultados, porque cada arquivo diário tem o próprio
+SHA-256 dentro desse manifesto. O `verificar.py` mostra essa divergência como aviso.
+
+### Reprodução verificada
+
+A partir de um clone limpo (Python 3.12, Windows), o `verificar.py` refez os resultados das Fases B, C e D só com os dados
+que estão no repositório e comparou com os versionados: tabelas, JSON e logs saem **idênticos** (ignorando quebras de
+linha e `ambiente.json`, que registra a máquina). Os resultados originais foram gerados em Linux com Python 3.13.

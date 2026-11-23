@@ -1,0 +1,3190 @@
+{
+ "source": "https://raw.githubusercontent.com/empiricalsec/epss_scores/main/{y}/epss_scores-{d}.csv.gz",
+ "files": [
+  {
+   "date": "2025-03-17",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-17.csv.gz",
+   "sha256": "80371273585efe8366ff50db4b7213e99e29a0759c582727418a000f403a9f58",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-18",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-18.csv.gz",
+   "sha256": "703ae91b603febb730e0291bf6646ef37e97f7e1a656c52e8e381a60c7c72f2f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-19",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-19.csv.gz",
+   "sha256": "5a7c15aec687a86609b7b8362a3e28a8da81ea57ada961561bd87d41d3c6ae0a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-20",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-20.csv.gz",
+   "sha256": "e1ccec7a300b2279806d60424374fda0f2244fc2ac33afcb282b3e72647065ac",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-21",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-21.csv.gz",
+   "sha256": "24719bbbc941e483a1a7dafe24123d7dc7066154d63bd8d41131825eb8386071",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-22",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-22.csv.gz",
+   "sha256": "fced38463bf69f6e27667bfca4fb5be19476e348118cedaef7eb7b90d6e17916",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-23",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-23.csv.gz",
+   "sha256": "c601b91945f46f39f5554666934935f1f41732cb50fbc10ab6d8ee703bb0f851",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-24",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-24.csv.gz",
+   "sha256": "2b1493641778ba351534c70454c5a09ca4417c91d6b166a0dc90abed995c5c57",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-25",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-25.csv.gz",
+   "sha256": "7b8c74dcd326963a77e8e314fed687c22f75df41b2dd714f5c188efc3ab52654",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-26",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-26.csv.gz",
+   "sha256": "6d79ea8ffd5fdcc797a1ef3f87309d167de4c5c74d9133e4daf1df31dfea37ba",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-27",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-27.csv.gz",
+   "sha256": "aa40b53d9fe70eabf9822b08a5d756d68a68ca4ec4fef148c266262a1db3ba0d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-28",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-28.csv.gz",
+   "sha256": "cbcedd7bdaf0d08552ab95f3dda5ac638fdd21fecc541adec78fd960b8121877",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-29",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-29.csv.gz",
+   "sha256": "ad188f86e328f876f8ecfc3d854ebb5f13e68896f65dbda305c9c3e7c049ed50",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-30",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-30.csv.gz",
+   "sha256": "c44a1033650692691b1c9e6c3266d616430064fc5d5991c3f969a3ed1dddd9b6",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-03-31",
+   "status": "baixado",
+   "file": "epss_scores-2025-03-31.csv.gz",
+   "sha256": "6e21e8b96ec31bd33cd911aa55c3003be152e6cc2163548f790c3edac36e9d95",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-01",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-01.csv.gz",
+   "sha256": "87d6744e6bc7b5e3b05095d60d69e3f01a475dcf7cd1f02bdc1f1562535a9530",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-02",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-02.csv.gz",
+   "sha256": "04f2dfb6978c930c3fe7ae22243a083977d2ecfeae7e213c255da557f67360d3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-03",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-03.csv.gz",
+   "sha256": "9795a9ae30d07a89c83e46882a5974c8bb1374135aa18adedfe1e5bcc6ef6633",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-04",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-04.csv.gz",
+   "sha256": "c2c8a98c2014edaceccba2f95ee3ec3182e6fe1b5b9887dfd3ec8d19f94951d9",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-05",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-05.csv.gz",
+   "sha256": "6744fd7ddfbf8429f313a3389de65aa95398a08cf16aca2070156c51eaa012ca",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-06",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-06.csv.gz",
+   "sha256": "fe08eebd86d460a17462329fa2379a4f1aab33d540604542193ea4c8bb4da6f7",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-07",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-07.csv.gz",
+   "sha256": "d95381210d9139bc9bad24e2d26d5b9feb154e4c42b9ba174f2462670010d7da",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-08",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-08.csv.gz",
+   "sha256": "51f4a96e049407ae58a51af3b7c9d6a8774a66e09fa967342f4f12c176d422ec",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-09",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-09.csv.gz",
+   "sha256": "c7047797c21bf42e9073a46793e3c8c1a10aec450b8614a1ffbb99c0b213ffb4",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-10",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-10.csv.gz",
+   "sha256": "fa6c3b583c3ade03d1a6923acac3b3a4e2b18a289d5b152ed4747d55475e5ca2",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-11",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-11.csv.gz",
+   "sha256": "9f7167264b5be2550aba93acdab0d2696383156eed305bec3e6ecf84d9cb6fed",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-12",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-12.csv.gz",
+   "sha256": "998a9a4b4255f1881e120eb8c0f98617abc7f6aefe85e5f013eafb1be22fdb65",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-13",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-13.csv.gz",
+   "sha256": "f0799035a5db08fd8ef2e47d183fb0e5cee11b5fd3ee7b1b61fe35b794cc8b5b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-14",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-14.csv.gz",
+   "sha256": "82367deb16464a835c11cef444efbcf75fc3d2195736cd7d01cd1694ee94bbc1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-15",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-15.csv.gz",
+   "sha256": "3f6f38e20186ccae857aa4ada43acf9ca0669af371a5f44a3b2e086576551085",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-16",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-16.csv.gz",
+   "sha256": "6fcd576f479b88f27cff337e2ba7b5b374346e62b79612bef862c3e62622958d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-17",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-17.csv.gz",
+   "sha256": "94fb2305be2c0c34d6825611b83c701a37aec0c14942d6fbcc3b9714003bcd21",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-18",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-18.csv.gz",
+   "sha256": "226196b6dcbbc690f33f0168126a69410cd986b224f158ffab72a904a6525a0a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-19",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-19.csv.gz",
+   "sha256": "18a161734ed4225231f797811fb922da3da67d59017478f59c49fd9a9328af73",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-20",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-20.csv.gz",
+   "sha256": "f181e0bbbad1577376ca52f058f9e2f9e65db54cb904e745d3684f57b352f327",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-21",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-21.csv.gz",
+   "sha256": "94bbcfbd574971fa300d6bff03508f65169b6d2e6498ef021d9e410b990eebb3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-22",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-22.csv.gz",
+   "sha256": "7e80b9daa9276e8df18ed15a46ff2b063ab8400c0038ffe95cf7121823fe924f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-23",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-23.csv.gz",
+   "sha256": "c196bcb604621a6295af75459d2735746d84f32d176b328112c9cc658f9f65ff",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-24",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-24.csv.gz",
+   "sha256": "892665cb77841332a827126d2dc8b6ad40e1fb6220ca1228f2e2c835c216a965",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-25",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-25.csv.gz",
+   "sha256": "83214a292301f8064e69284cd9f2cd301459779eb1f03013720828cf202a7d7a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-26",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-26.csv.gz",
+   "sha256": "63a90a26c6ae340db5f13c4727d40e7d5b8e4f03be7cf7e397898f70898dc84e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-27",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-27.csv.gz",
+   "sha256": "82452397ce7369da3599063a8089475c068995098d811f731745ee5ee10433a3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-28",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-28.csv.gz",
+   "sha256": "c03fa25e9c50abcf3962bf6d874cd8632b678d88293bae80b718d3248f7cebc3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-29",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-29.csv.gz",
+   "sha256": "d075cfe6455aefca88151e6e3fc3d0267004170115672975cef8708bbd31d0d0",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-04-30",
+   "status": "baixado",
+   "file": "epss_scores-2025-04-30.csv.gz",
+   "sha256": "308947299fee5caed5129f5fda42d9235579e50e4fe4d43aa8763e1b108f95a7",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-01",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-01.csv.gz",
+   "sha256": "bc55b5f3f066e5b1a83538e748390b317e001eea2cede5e1aad8f96710b77c3e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-02",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-02.csv.gz",
+   "sha256": "b6584d31d5c57f6cf01aa134871a1b69f88cb901005f9842b9422b03c4585ac7",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-03",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-03.csv.gz",
+   "sha256": "fa698563002075488cce858cd387b3f9c4217d566c2b42289212dba9232dfafd",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-04",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-04.csv.gz",
+   "sha256": "317e931c6f6ed3db729bfeefd92ce02b9588f30e18cafa4621049db23604615c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-05",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-05.csv.gz",
+   "sha256": "1113e13aecb9886386e27ce55ff7a57f4d3d5f09fe40db3eefb25cd0d2a4a608",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-06",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-06.csv.gz",
+   "sha256": "2b1f8ee473c5147815f51da0c89df786e3fabf96316507689cb9ca8a3108de57",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-07",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-07.csv.gz",
+   "sha256": "0fb630acba440da0ac7d6b58507bf5cb529af6cf3e6f4aadd2fcebe927393f07",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-08",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-08.csv.gz",
+   "sha256": "8e5232670a6f24dc4ec18eb67a038a204db5ffec0c08ef617d4f198b3021f86c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-09",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-09.csv.gz",
+   "sha256": "1b7035a25b7391a74329f668e5704bffca35c2e67582df3c6e874f288a3d06ce",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-10",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-10.csv.gz",
+   "sha256": "7bc695456391408a42ba787930cb2779161aa7b737175f836980ef9383bce107",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-11",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-11.csv.gz",
+   "sha256": "e6304b41ed7d125155bd2fa53451bb7f46cabad7d0f300d862333d989f3cac21",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-12",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-12.csv.gz",
+   "sha256": "4553f1f74196e0c6d9290028bddff23796a858f67afc9e7420881de3ad166ffe",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-13",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-13.csv.gz",
+   "sha256": "2c085f01c72ff43b1992390f4abeb1523fbeec4ade33812a3c33d40f60c4ec79",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-14",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-14.csv.gz",
+   "sha256": "ad855607a572d42386a65529494f23617ffc2b99c73c6741d8dca9f42d3d1ffd",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-15",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-15.csv.gz",
+   "sha256": "8d4991ffbbaf846d9f8a9eaf60926176edda606053c232311911f34532bcaa4a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-16",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-16.csv.gz",
+   "sha256": "216c6d27e3672893e463cdf588b7d8bf0a25f2e1632d7c88204595189ac4efce",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-17",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-17.csv.gz",
+   "sha256": "a9cffa6e4d638456ce02cc794d691758377bac9a170f9210527d0010846dc75e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-18",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-18.csv.gz",
+   "sha256": "9a5f207e132256d14f0074614d1f0c55a6a4f51f86a1af5898777e1d3064c170",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-19",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-19.csv.gz",
+   "sha256": "6595cf41342510b282ac87e02c7ea3a39b174e1b50782281466a097c44b5125e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-20",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-20.csv.gz",
+   "sha256": "2d34c3cb919eac09c037d9f2d1158b526aee0749cb82388629a6434915f2a6ce",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-21",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-21.csv.gz",
+   "sha256": "fb1ebe8008c1bc01de3291ceb73381429b5361cd9f35eff110b7d869148f7814",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-22",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-22.csv.gz",
+   "sha256": "79f45c4e99e11b09152044895a9b3aa2c4e42f7a2624f1177eaa55082aa2c920",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-23",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-23.csv.gz",
+   "sha256": "d989e13d27ae3ca0349af3bd417b8e29a3e7c6030ebfd7a43642861a1f1d4442",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-24",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-24.csv.gz",
+   "sha256": "507c5da54fbcfd96eb9f5f38085eaaa623090a6cb9bd8bbf40387d729957afd6",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-25",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-25.csv.gz",
+   "sha256": "8b85a959e4320b24af5b4abc16c35dfa74f84963beab40ebf8bf87d4c4944c39",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-26",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-26.csv.gz",
+   "sha256": "c3ca12d2a0757a99069c9eaa2a4433d0590a25d4bd1c1840a600cfea4a13bbb3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-27",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-27.csv.gz",
+   "sha256": "9a4c853dc4d089667bb5ada454d7f51b53e75670cedcdaa6406d1224fd42387f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-28",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-28.csv.gz",
+   "sha256": "6e35212ea1e438578ca8e367f96943b3a5006bff2f760c26e0aeb43ca6849004",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-29",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-29.csv.gz",
+   "sha256": "ba571ac9f41fa925b6f168970055cc2fefa29c38723fa9643fe4c6cb00f66375",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-30",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-30.csv.gz",
+   "sha256": "f56f4994194b098acc3c834041ca8b6c057136504faad9b40f2cebf5460bd92f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-05-31",
+   "status": "baixado",
+   "file": "epss_scores-2025-05-31.csv.gz",
+   "sha256": "c71bda1fb2777f128b888f2d88e351a10c80dfcb3596738ce5285d971a22c92e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-01",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-01.csv.gz",
+   "sha256": "72f56f8b47737e0a57ae5416b4065eb78c58090bdcb494042b25f3351738a4e3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-02",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-02.csv.gz",
+   "sha256": "91a486200cde1f9c1eecc684ff715d41f565eddfefd39fd91977413e39c13495",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-03",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-03.csv.gz",
+   "sha256": "5f35d5ec5260a3b554f05e9f973262b961dd80ae196118d3ca95751a44007c5f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-04",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-04.csv.gz",
+   "sha256": "14a07a6fdb056358049402b20392ea2652ec20665bc23b8aed0cdbaeef8bf89f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-05",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-05.csv.gz",
+   "sha256": "a6d759b95a53f203160162f8f87764903a3686e031fdceb3756fea8703b0422b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-06",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-06.csv.gz",
+   "sha256": "1f3b460ba77dd54cb9326272d98af4b92ca1a643b4d4396e4c417857eb507bdf",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-07",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-07.csv.gz",
+   "sha256": "e9e6ab2ca037e98cdc7e500d8df4850310b6dcde34a99f4605df9b84bfffc9e1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-08",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-08.csv.gz",
+   "sha256": "ee0066127717c807896ed0304c59a52c79c3ab274de85c68f15e253bff93e556",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-09",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-09.csv.gz",
+   "sha256": "2c45422140f09fcdeac060b8335c1f2ecf9884ad47e6fa71c19f6befb9050e42",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-10",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-10.csv.gz",
+   "sha256": "65c99928eac5333969757b4f80cc496ba6259f6b109d068d7f9852e0cec5ccae",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-11",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-11.csv.gz",
+   "sha256": "91f0fd4c55f420314ec8c0872e4b4a8fbf812ee76443f62e3c44a67010216669",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-12",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-12.csv.gz",
+   "sha256": "8509ac2c8c025559478d4d9606f093baf7677725e5768923261cbec4aa6c7074",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-13",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-13.csv.gz",
+   "sha256": "a22715084209f0d173d3fa745854324a4b3d39880735bdf515cb3331d31df124",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-14",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-14.csv.gz",
+   "sha256": "7f707eacc65da80bbd4d9d53cc81d082e9dee49cdca78e40b0543f7958cd1e5e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-15",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-15.csv.gz",
+   "sha256": "c2bd39594947dfe6dea69d19cd918d20e010dc4f238325c54fc2ca59f446a7f9",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-16",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-16.csv.gz",
+   "sha256": "4e7389518713d82f4c23690a742b8b61cad4aad5a440482c5097da911d833430",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-17",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-17.csv.gz",
+   "sha256": "fdac5f2a2af1c0b0f906814158e95b2348d2ccdf04a82acda9937dda9c897479",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-18",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-18.csv.gz",
+   "sha256": "0b47755720fa5c9d46113459c226d320f02d2b226d27efc106fc82c888368c0f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-19",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-19.csv.gz",
+   "sha256": "c2df03bfd21b50b45d3031139c48164dbc6a93f3d8b1f4e2ff6fcad0440a3786",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-20",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-20.csv.gz",
+   "sha256": "b89f71fdd4763951ac4783b1e894a19b6bbf3ad526006b9e4ffb2efbabf7f4a6",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-21",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-21.csv.gz",
+   "sha256": "94a7cbb2fc2425859123a995a1d12e52fb40774faea6aabc5c96ec8b42023f01",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-22",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-22.csv.gz",
+   "sha256": "a19ecad2bee8f1697da09afc1a6e6a32dcdb9c0a23e64dbc40d779bdff92013d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-23",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-23.csv.gz",
+   "sha256": "bafcd5997535f02c26bfddb251b7837620d2ea7b59f5fa515ff473baf6d1f878",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-24",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-24.csv.gz",
+   "sha256": "e7eef3a8a43555814f806a49756db5a96c2392466ea75586769bc25f6d8abbcd",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-25",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-25.csv.gz",
+   "sha256": "1c1148b061dd33e0bdef8b1e9af5ac69e65fef3800e1a3d6e7e1e418fe1298dd",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-26",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-26.csv.gz",
+   "sha256": "5b4727a7f6f9f834a51cb25d1f1fa90fef6c6965cfcf72af3821da58d8df89ea",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-27",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-27.csv.gz",
+   "sha256": "f557a66ea007d6866b57596e24e7057daa5abf392b86fcc4f29426d463fa66da",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-28",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-28.csv.gz",
+   "sha256": "e3978f82395023c9913b8873dbf666d9cb4b0bb87d8ef30a0518b765ceb9ef24",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-29",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-29.csv.gz",
+   "sha256": "45a9b5f0753c68de03bf1173b58bd412e0a0fb3edc25084b685b75b04837f876",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-06-30",
+   "status": "baixado",
+   "file": "epss_scores-2025-06-30.csv.gz",
+   "sha256": "5ddb8c384063f841e44014e9b1a08657e67ed3696a303d45b7f6975b5ed8df31",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-01",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-01.csv.gz",
+   "sha256": "fc9ffea6438f0ab87a337b45884330c899ac36313cd80c44a8632876d93966a9",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-02",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-02.csv.gz",
+   "sha256": "40df1a7a719e65532e1208b623691629f3077aeaae7704168d9c3bac01458531",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-03",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-03.csv.gz",
+   "sha256": "c87e10e6d48e59facfa9b90b148e4db7fdda97522e46762d4ea8581cf4fdc868",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-04",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-04.csv.gz",
+   "sha256": "8fc2ee097ef18105659e66f2ce960d1c6ba78a065f6b908f8cb969fcfc9727d1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-05",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-05.csv.gz",
+   "sha256": "bf029413c5a8d0fdd5e00cbbaf53cef5e5609c1ae54b6ea13ffa1ba505f60a36",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-06",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-06.csv.gz",
+   "sha256": "f20538f9cdcaad497fbb8166328476fce7e5a9a902d0d3f2f32408c30c65c57a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-07",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-07.csv.gz",
+   "sha256": "2cc1328f1676568801fea92190ab2e406fb09d62b6eb3bec737347c33a3ab524",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-08",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-08.csv.gz",
+   "sha256": "52845b85be392fd03459f18f694c51541ffac1264029b9ace849aa0ad792ea65",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-09",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-09.csv.gz",
+   "sha256": "8816da861582759c14b32c68fb55490901058890fc6f63c08503b8c49eb8f260",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-10",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-10.csv.gz",
+   "sha256": "95241634a82ad901ea63f78b404d36a64c442592179d13874810a7fa9eecfae2",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-11",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-11.csv.gz",
+   "sha256": "748ec2aa38b3442bbb641d884323bfa489d1a1b8b3126536ef0e96d2e9151659",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-12",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-12.csv.gz",
+   "sha256": "bcf8797186762ae770d5667176c9b6ba280991e364805333a08b7635c0503199",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-13",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-13.csv.gz",
+   "sha256": "5d3267bb7bc228fd1b99cad21dfe0f056822c830eb70a659d573de4c3383f462",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-14",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-14.csv.gz",
+   "sha256": "a0f12d74ea91734689e1a7c60050ec3ea3302e3d33099fc05e638d34d9a70d82",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-15",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-15.csv.gz",
+   "sha256": "3dca23a9c4f8276fa795c9df8fb54863403f70acd78b5a9f2307cc9c379e28ea",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-16",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-16.csv.gz",
+   "sha256": "7a87b358c076d474b987ae8385b606712cab3e978ed252269ea050514457798a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-17",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-17.csv.gz",
+   "sha256": "7b86956eb6d1107b71d4156dbd311708a02fb4823caf05ad4c6696e6cbea4a71",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-18",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-18.csv.gz",
+   "sha256": "a57e34c96af0399918ea7d3673a27e52d8d4f633618d53140e420a1846717cca",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-19",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-19.csv.gz",
+   "sha256": "33929e5542a6c38a7681034201d3147340acf6d3de8246371ac15de4bc42ad6d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-20",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-20.csv.gz",
+   "sha256": "fc0c3d5ef0789d4d08c98655b83b714581d80ca3e68a394bf330e4298fb174ad",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-21",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-21.csv.gz",
+   "sha256": "edbd774a465053e3f66bbf94fbdc00a4fd3ba2dcc8ce787321f80e351cdc3c55",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-22",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-22.csv.gz",
+   "sha256": "184d712d8a7c28396d446043a5f966f64b90d4f1b21ba7e8e851e7a1c9a6f364",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-23",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-23.csv.gz",
+   "sha256": "792427b174ac91a9d54133861c32079cc6b5d7a86fedc2c071ca54395f3b18c8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-24",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-24.csv.gz",
+   "sha256": "a1011d576a0fcf9c285d8fecc5d4df6986a25584c964d45dc393dd5cc0c8d4f8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-25",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-25.csv.gz",
+   "sha256": "517702ece450113a579c30d7b15e66577770c10f1f59838849e96e24201107c6",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-26",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-26.csv.gz",
+   "sha256": "32864785db774bad65f10aafca79718ec9d48c15a361d102eaf82fe2ae066c1e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-27",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-27.csv.gz",
+   "sha256": "167b9732e08cd6da63ae0f26d419e2c5283deefc3fba20689a5df109ee419f9c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-28",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-28.csv.gz",
+   "sha256": "1d5ea252e0ebd0e2561ed4b00823c70b694504dce6ca167f5eb73bac2877aa6d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-29",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-29.csv.gz",
+   "sha256": "d494ca9ff21bfaadfc4ca2696b97d95526af2d2565c14c84d0f87028f3a3f612",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-30",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-30.csv.gz",
+   "sha256": "c2a623c1ac843e22d939f047f28dc0eb9ba6ccb993cfc445152513523b42d56d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-07-31",
+   "status": "baixado",
+   "file": "epss_scores-2025-07-31.csv.gz",
+   "sha256": "b45de0d1bddb4286b0b7b9d40ae362bda9cdb5e7367097cbbe38bd942aaa4867",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-01",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-01.csv.gz",
+   "sha256": "8631f94569e7bad03e6bd1da7d393a7a030b0b2c39dcdcfadd85a051dc751eb0",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-02",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-02.csv.gz",
+   "sha256": "25a5029240088f6830ee34a50ba471c6cec28ff8c0ef94964dc690141beb7cc6",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-03",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-03.csv.gz",
+   "sha256": "83e41a599092f9a66ec958addbdda2cffcd37825a838ae025086287cf1609925",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-04",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-04.csv.gz",
+   "sha256": "a074ee6c2bfc9a8ab838562308b546ddae17f8fc49be3c6622631cc75145c57a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-05",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-05.csv.gz",
+   "sha256": "700103dce6bf061f90a357e827f5e54120aca209273f0c533de13f043665e2b2",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-06",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-06.csv.gz",
+   "sha256": "e59c42eeb8bcf58186803a72eb22c9f4aa80fb0ef2e7898c1da470b2b468bac5",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-07",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-07.csv.gz",
+   "sha256": "7de0c9e33d19b7a0b2fba6dfd81f2061ddb64a82e804fbdf80b184f56614d402",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-08",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-08.csv.gz",
+   "sha256": "065f6791837252c396dae2e70d1ac968f16608c31fbb8e03cce674051975dc60",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-09",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-09.csv.gz",
+   "sha256": "39c3cc65f8331667f0d305e0db13e7c2e986c34b041ea0274c99760bae99833c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-10",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-10.csv.gz",
+   "sha256": "2fe88460ad22a012c7f830407eb2a026f8955bf41c6eca61bbebcf4cdc0ff105",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-11",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-11.csv.gz",
+   "sha256": "beb835cc090bc7eff2d0a6ad8bc20070086b8b2eedc5d6e2d875e1fd6b39e983",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-12",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-12.csv.gz",
+   "sha256": "b019a40d0b2488dc2cd71847490f80683c5505c64a343e0c56d79ecc622f5544",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-13",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-13.csv.gz",
+   "sha256": "6b427bd8690e5fe309e10d64dd6acdb7cccbb75c7635813eac1635d628f5d7d1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-14",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-14.csv.gz",
+   "sha256": "1a4bfcfb67f0f4a4aa8e5f3b3ca80ecce9f0829f4d1046b6dbec9758eb6685e9",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-15",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-15.csv.gz",
+   "sha256": "3ebfc6f21d1071286e81a1036c956e985edc14a847c3dce6244e86f08c627c0d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-16",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-16.csv.gz",
+   "sha256": "9d52275126166b234bbd99cc1c8393373054e18f8be6be6f0679cf98858498b8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-17",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-17.csv.gz",
+   "sha256": "8e2e3336d8e1828d459cff475e395e2ace94ff96f0a88638cad740a89f1f2f47",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-18",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-18.csv.gz",
+   "sha256": "fbfaf578f0840ed8ee0c0623e03837251e9b404fec5a5395f7be9bd5fde41a4d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-19",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-19.csv.gz",
+   "sha256": "d76f90d1ec623521b9e248502cddacc863201476bd17b055f11ec526896ff2f2",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-20",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-20.csv.gz",
+   "sha256": "5968ca2bb206e9f4a71e9ebfb7c589c99857558d51fad8739fbef916ffdcf587",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-21",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-21.csv.gz",
+   "sha256": "53ddbdf921266e681125b3ca4d83d8e1a7c3262a03f25c5d8616c6b913663577",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-22",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-22.csv.gz",
+   "sha256": "9ba6285ffb44666b0a7b10278caf6faf023af9ef80ddc656528d3553e1e3b62d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-23",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-23.csv.gz",
+   "sha256": "ef977c22a77b5626d014f5c358ad08960f7b1ceb6f7a4bda5fe3d7c2faf6c674",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-24",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-24.csv.gz",
+   "sha256": "51c0ff003c4b00708b5b8f1b2d50b469d26f1d305e17b0eb1c400b4914c2fa89",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-25",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-25.csv.gz",
+   "sha256": "30f0d09293099483da37648b6ff5b72e9b6ae3e62cdc5b7e045bd906b568778e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-26",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-26.csv.gz",
+   "sha256": "37e93e3f5b62b49c5fa38919f74ece2c9e56dbcab330460c6c8bcfc9bdcf47d0",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-27",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-27.csv.gz",
+   "sha256": "b14f2e1e71248639127adf6e195c8829ea08f9a2a47dfb9d40ad4e57db5d15c1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-28",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-28.csv.gz",
+   "sha256": "90c223da49a68741826f64529aae0e1eae29ac98dedcb4cad69decd1051bf283",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-29",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-29.csv.gz",
+   "sha256": "0ce199794fd3d8063071c37861302b44c2f52cf6563a3ac0e02779b348072998",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-30",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-30.csv.gz",
+   "sha256": "d44ce02a8e916b8eec175fb56217b2aa434730026dd53d83490eec06e9743109",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-08-31",
+   "status": "baixado",
+   "file": "epss_scores-2025-08-31.csv.gz",
+   "sha256": "8a8a0839e5fafd555dff9a80a530e5f671ec11a3400981b2732b23ecc54a6b60",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-01",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-01.csv.gz",
+   "sha256": "3f2cae4fdd8f7609dc4795fa0fdbc31ab915ffad7329cce4127b534068153b38",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-02",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-02.csv.gz",
+   "sha256": "8fa5ddb75072040c0cb3b9166e57963fea805afa497e49726cd01b99b8052118",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-03",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-03.csv.gz",
+   "sha256": "ffd6295f637624d0f67bc5dfa4f8a18fdb7311b7901403810978e0ac229da369",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-04",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-04.csv.gz",
+   "sha256": "ea6f13b9fa9ff1a110be0b208b6b870721b293baca842d83c74701d38db6bcc3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-05",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-05.csv.gz",
+   "sha256": "fcd9145f433a39b49bde1783472ab965efee567cf9dc1358251e0c4a039ff4bc",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-06",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-06.csv.gz",
+   "sha256": "be4ae595ae801521cd4f6e8f059fa9a8d75ca67a6f1946ba680d681a6f0c8ce4",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-07",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-07.csv.gz",
+   "sha256": "58308f0c8f5f711ce3a1f9427f0cf834698c0d4545d623705d9ea6e2d1f57716",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-08",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-08.csv.gz",
+   "sha256": "e0181be149d73bec2123486d4f61d7750bc6c8c0dc354e8b36cb3aacbce1152f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-09",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-09.csv.gz",
+   "sha256": "82b0a6e0e34cdf75910a706fde002aa3cd4ba60908d4f1453f0baa9e6b227eb0",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-10",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-10.csv.gz",
+   "sha256": "3efdf877762c882604d202fb328f66eafbabe62b25d2c6180583e7c7bc8b3336",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-11",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-11.csv.gz",
+   "sha256": "cc22818baa3a7874e25204beea3bd94a5d4a23a5c59b7b811b8d0d3386d86e77",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-12",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-12.csv.gz",
+   "sha256": "d12f8c41239854a5c71f79f3ec1669a5c8470e71a594285b3057d73368437e51",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-13",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-13.csv.gz",
+   "sha256": "b31b3cab73435d551b2dc7c1a545026c7ab600834bda46d79a20fe792712ad6c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-14",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-14.csv.gz",
+   "sha256": "1f815fabcf9c2887c4d1b1889660204591ef78cac3522c2ad3b4b667e3894c84",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-15",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-15.csv.gz",
+   "sha256": "ae8b22b80720ec93ce5c09e8122492c91a152b95a11ae4e98ce61e01f8c3c76b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-16",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-16.csv.gz",
+   "sha256": "54fa4de5620562449c7d7eca878deaad48722682b2698a8991335ab0c3310fa6",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-17",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-17.csv.gz",
+   "sha256": "c450c062d67f49975b6469c3272d07d29b1b18d4e92f24826a8f989464ea1df1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-18",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-18.csv.gz",
+   "sha256": "7c059664e31ffe8a61691a94c988aa975f70c62e8a6e1d3dedee2d743218d597",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-19",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-19.csv.gz",
+   "sha256": "6abbff2ae9493c2b418cceaa222f9480cc7e6905214ef29ec9a915fc8f5deac4",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-20",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-20.csv.gz",
+   "sha256": "4753c201eb2cf672915ed7f0b0e831234b099c47c3c909e9c4abc1b5513b21aa",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-21",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-21.csv.gz",
+   "sha256": "b6ba048b02afbd2419ff34a5343c956c04b48a72d5031aa708a528756f41da01",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-22",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-22.csv.gz",
+   "sha256": "1e74e65bce3c65f561f051974f7f751b920fe6c73719d6812e08b8e59e6c6025",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-23",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-23.csv.gz",
+   "sha256": "67ed20e7d1baf099ac6d5b3c080f6d903ca350f4fe611072abcaf790e2b9d15d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-24",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-24.csv.gz",
+   "sha256": "b9d50b3195f42c47d7ce15f67f6abe161877f7c2f0413ddee1c151575961fd74",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-25",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-25.csv.gz",
+   "sha256": "8ad51ccc2f7c731ca0210f35c1111cc1202944f5819559c0f237a09ab81cba5e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-26",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-26.csv.gz",
+   "sha256": "6de977c407d750a3419da2cbd12290986ae5bb2160ebd63268a905198be3ec70",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-27",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-27.csv.gz",
+   "sha256": "62844d027251ae62e414eef8bb46179d21f41cc6b5d8d454d304e29aa599ee4e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-28",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-28.csv.gz",
+   "sha256": "034aa8185734d08614b8c6ce395d0956a8ba925b7296fed273f063041d66cd27",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-29",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-29.csv.gz",
+   "sha256": "22777178c727be33d4ab5f7c0214d1d6cd949e0556aeda0e82dc52c537b5385d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-09-30",
+   "status": "baixado",
+   "file": "epss_scores-2025-09-30.csv.gz",
+   "sha256": "8c586d251f5ca8abbfaeb0c28aa263df8a5c97b13eea5ff031b4fbdf1002f9bb",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-01",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-01.csv.gz",
+   "sha256": "d8a34baffdb8dedfe6c3ce06bb6763cbbb200d20afda7d1bb6259c3a426fe12b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-02",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-02.csv.gz",
+   "sha256": "b1157f1c8d53bf78bef1bca934ad32bcc69d4b1d0620bdf2d4fc48305c0ffa24",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-03",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-03.csv.gz",
+   "sha256": "faa83553b0bf3ff5a088d74150136bcefacec25f524f42fbaea1b5c01a31bd9d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-04",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-04.csv.gz",
+   "sha256": "018d1da5f0daaf4ee07a2c403777ecd9e122bd82ea774ae7abf0731a008c49a1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-05",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-05.csv.gz",
+   "sha256": "24ded7778f583399107f998e111b582be3a8c5f874992a035bf3fe31acd7ed64",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-06",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-06.csv.gz",
+   "sha256": "fb1c9ca895c548bb3cd36df7da8927fc4ec27e78376001fdcdff7aed8a65bb09",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-07",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-07.csv.gz",
+   "sha256": "8dd6a43beb9c81b256f7de5f564873233c616e137c9d3642ce9cf8251b98fc86",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-08",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-08.csv.gz",
+   "sha256": "67aee1472bf8a6d26924a295fbee67b5f3eddd47e1269e981983c2c9b9c73c25",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-09",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-09.csv.gz",
+   "sha256": "2ce653e67321d3e0fe8c81e77e521a55185b024f535393dd059ed28932fdb314",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-10",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-10.csv.gz",
+   "sha256": "4b45e1955e617fe20901ae02792d05be1000f530aefc72c63ae71ad72bf8263c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-11",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-11.csv.gz",
+   "sha256": "bc492c5c9b75d6fd172cf94e0bc8b4b9e7d9f5ca03c81462dd24a8ed08269057",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-12",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-12.csv.gz",
+   "sha256": "026c6ad6e7a46ed076b951e07b55447745d375005aa355a68757c6fc314e9842",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-13",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-13.csv.gz",
+   "sha256": "a6ba8c2740bf662399e3a59e8f41b7e011b45b5f889d5280415ef9549e2116d9",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-14",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-14.csv.gz",
+   "sha256": "b5faa6d101fb803b2a0d7a11165c1fe045d6021d3a49c92e75c4d87e60046ed9",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-15",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-15.csv.gz",
+   "sha256": "16bf149698ab682cd61bf0c634c95d7886122ff1b1e84665bbf8f6a3d2a4d56e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-16",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-16.csv.gz",
+   "sha256": "91e78b2f9f9fa63cb84d554a12b45209b4ead8e35a40f4834dee9bcbae654b59",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-17",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-17.csv.gz",
+   "sha256": "254cf70d26f0316118b8070c8f77b6b3404cd3471d534d001136ba419e967db7",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-18",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-18.csv.gz",
+   "sha256": "ab8e8f658431910a5e40e21c3d13f3ec0cb77bf9d2aa34c2f6d383d8c31f9ef1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-19",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-19.csv.gz",
+   "sha256": "ba0f2332d09d9eee6b9c9c2a9a61dc86af1521ca71d678924142f58b84262fb3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-20",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-20.csv.gz",
+   "sha256": "5cc7e8da4a0225d3b771c26fe09371231254e06bf4f831a2aa7338352185e5d8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-21",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-21.csv.gz",
+   "sha256": "fb0e79919d9ca6bcc39a37e4313ded87912cd4c31881a5fdcfed561c21fa226f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-22",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-22.csv.gz",
+   "sha256": "ca41a807377942d37e5d48e33d4a3cb80bb7a6ae2c984f8013d03bd5b69414dd",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-23",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-23.csv.gz",
+   "sha256": "d036d29d19a60a2aee92455374d2c3f6676f801ca17f1129d16623ca36bbec8a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-24",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-24.csv.gz",
+   "sha256": "db40a41d56d99755db90e47552f9d6f85d8f6df1149af255fcc5687b401adad1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-25",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-25.csv.gz",
+   "sha256": "1e783ee21ce1cb26494904c930dd62800dc441de0c275a5559e8910b6309f1d1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-26",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-26.csv.gz",
+   "sha256": "0e71f3e42557d3d35662cc7fe955861d8408e58465be421d3dddc5669b2563bc",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-27",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-27.csv.gz",
+   "sha256": "6b0c8588c319bde67d4c9e97e5c5790ded2a2f31de7daebe699f28511769ee41",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-28",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-28.csv.gz",
+   "sha256": "39646df6bc1aa103c17ba5897af10f2c8e8b399b430cf40ae33585cb2fd1fa7f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-29",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-29.csv.gz",
+   "sha256": "abb5a674cba352ffc0f0e9c6ff16df3076a5a4fd78f08af8b4388311260dca82",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-30",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-30.csv.gz",
+   "sha256": "bedc5ad6d2ce8ca607ccf442018bc69406ee7232d9d1a9e458013b9132c63e9c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-10-31",
+   "status": "baixado",
+   "file": "epss_scores-2025-10-31.csv.gz",
+   "sha256": "763cac0bb2699c1fe80c334a08349f374557da4951536246e15e1deb9ef89c54",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-01",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-01.csv.gz",
+   "sha256": "524ebbe3773f97480c97edcc479cb8d60562014dfa86739f00c5d9f6b31a9563",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-02",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-02.csv.gz",
+   "sha256": "78b92afbcceb380d64cb8f7345405133105368b37931755cc729b71810d7287a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-03",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-03.csv.gz",
+   "sha256": "44c296c9729134ff20109755157ef34ac9e69e6ad7c204983bc5a5e240f1aeef",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-04",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-04.csv.gz",
+   "sha256": "8f654a280292aea284fb4a1a42e3b80d2aac9ad7572192845614659c2466aa34",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-05",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-05.csv.gz",
+   "sha256": "e6e474977d13f44bb28c46b8e783fde89a541c8e5328637e80e626acc49e8860",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-06",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-06.csv.gz",
+   "sha256": "b942ddc77bf115c1923217e68838916d88e4afab0e50b07a5933899a324ee0be",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-07",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-07.csv.gz",
+   "sha256": "0b6f6bed2dda453737beb1180ca39c3bd28d9c110fe61d9694b6526f97153c8a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-08",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-08.csv.gz",
+   "sha256": "f95e1f43f4dac72fde85ca823a5cf32f6c9207eee56c450fc8a213676aa02173",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-09",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-09.csv.gz",
+   "sha256": "105177a4dba81fb2a8226b7afa819d52494d52b7e23b3cc470b36cb48e376168",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-10",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-10.csv.gz",
+   "sha256": "7adc5e01e86abeca999f07ef0a2c804a3629fdbed5fb0be778ed2844388b7380",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-11",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-11.csv.gz",
+   "sha256": "2782058bccca7e985463ceb0840ea706a9e7f37a9d62710961d22a45323f5eec",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-12",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-12.csv.gz",
+   "sha256": "d9b6d245782a65ca52fd9cca50fd326ab0ddce1c8f8516fab48526789535c63a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-13",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-13.csv.gz",
+   "sha256": "e020b801f829e0c213ae700ce38ac8049728650a1031e313fb33a242b35e9410",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-14",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-14.csv.gz",
+   "sha256": "d82a32a302c44173bd3daececdb025bc8614eaae58fb723b5c52b94c99b75e4a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-15",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-15.csv.gz",
+   "sha256": "d3103e0f7d25c5ac16b9f4877fa3727658754a0c493f085005975c217d1adef2",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-16",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-16.csv.gz",
+   "sha256": "b3a7095f8b2e1b108f353e3006952a2933ef5690aa74511a0098b7b0496f35ea",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-17",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-17.csv.gz",
+   "sha256": "654c6c52280fd78dee6793640ac2271d2393d6d4beb6652c147fe90da5f07093",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-18",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-18.csv.gz",
+   "sha256": "818186953b3da96f7dae4586835121fd7dbee8dd5faf283fcd5fa428ec555253",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-19",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-19.csv.gz",
+   "sha256": "4acd6de9d51d6cdbbbc8da8eeb6e975f4d914548a0148539314a2995824c6027",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-20",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-20.csv.gz",
+   "sha256": "74835ca6a44b9879deea522d98b660f86700c76466f190e103d094af1f9b30ac",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-21",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-21.csv.gz",
+   "sha256": "1083d6aefddba26a30fc2e7abf9ab6c032bfc81140f609754104f7cd2deeb3b6",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-22",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-22.csv.gz",
+   "sha256": "afbb88a3d38f56fa6cc60294e22b019c906496b73c84870608c633bd2c72653f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-23",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-23.csv.gz",
+   "sha256": "88f3d498fa3fdbaf9fd67f59bbc5dffc4faf70342acca045414dc1390ea71375",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-24",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-24.csv.gz",
+   "sha256": "755bb622760cb72fa67fdb225cfd71d73a212af667713d3599f193299b874966",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-25",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-25.csv.gz",
+   "sha256": "6ab901fdb69d7b5e155f05541e63f53501a7c4472a05d5fb677230bee6107ea1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-26",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-26.csv.gz",
+   "sha256": "8f5d1562be3ced5fa8e43c226f4f74e72a95374aadb6ae212767ed1e6ba1fd20",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-27",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-27.csv.gz",
+   "sha256": "e142b5e39f8668b0b46013bafb648ed4e488c68781a4dbaeae1217709c6f3614",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-28",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-28.csv.gz",
+   "sha256": "05c0ac24a032edf3a753f3c83ed55f7ebbea6861d5e001c6bea29baf0d2053f2",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-29",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-29.csv.gz",
+   "sha256": "f1ed6f8c6714cf49055b9e5b138905fd6a0915062e61155b5097e913888a7c92",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-11-30",
+   "status": "baixado",
+   "file": "epss_scores-2025-11-30.csv.gz",
+   "sha256": "867b789116a6be53f1eeb54f9b2c47249ae375a1f7cab4770c7c2260c47f27db",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-01",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-01.csv.gz",
+   "sha256": "186a873eb896a48c47c6a6c663b2d75867f461b87939efb3009d610c4dc2888a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-02",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-02.csv.gz",
+   "sha256": "2d882f010e0c45c07de2642ae147220296fb7f9728020a04ae58118862ba6c98",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-03",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-03.csv.gz",
+   "sha256": "29c08d5d77290ae461331911e3a20b43aceb260a5e6d91ca7fea5e8b2406c4ea",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-04",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-04.csv.gz",
+   "sha256": "3b3e551f0202781b6a6dedeebe84af0afa6bbbfde744da09576e94d2f4ab5f41",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-05",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-05.csv.gz",
+   "sha256": "ebaf9e5c56c6ba47e2ce80d1d0a4a4c03cec73ed92df5fc297f5ff3f9f013e33",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-06",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-06.csv.gz",
+   "sha256": "76d5d2768322b30a4afbcbc55a7ac197d733468d50b4a2fad77e560efea4a7f8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-07",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-07.csv.gz",
+   "sha256": "9223f7e05a4f54788e23ddd2b4bf9e76e5742fc349d85be9440513204cf56294",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-08",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-08.csv.gz",
+   "sha256": "eff73ebedd32383519673bcdd4a0c57d3fa4e0514cefdc9f8f135364e5c8fa78",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-09",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-09.csv.gz",
+   "sha256": "fcbd3b20f23dd3c8602e748792f6764dc2c0b5f877ce165ada64bd9b41a792fe",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-10",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-10.csv.gz",
+   "sha256": "534cacf2480a548ed3e6e5066d75d050e0d4451f2518bfa63b8593918c53bcc8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-11",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-11.csv.gz",
+   "sha256": "ddf3ab72c08bac02a3a14171e05804e4e965903e16485c71e50d349116b97384",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-12",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-12.csv.gz",
+   "sha256": "2e9994a18df6cba03d8d4b4be8c5e383bf7b402af3cc0029e66362e7c2e72ee8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-13",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-13.csv.gz",
+   "sha256": "3ec07f686548305c5256b654daac322fb78e9b8c4ff04d36dd0bc2f5279a4d8c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-14",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-14.csv.gz",
+   "sha256": "480e23ec81c1ea6959a895bae6d4f12d168335671b9874755479ec8a1f262305",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-15",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-15.csv.gz",
+   "sha256": "d9c4772f1be3fdae64b88b3f2db7c35aa612eacb901b5b86a846c08b9a9b7dee",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-16",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-16.csv.gz",
+   "sha256": "6c101db686346b9d70c8b04e34c19aaf7199e998b60589559657336e8336e0a5",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-17",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-17.csv.gz",
+   "sha256": "bfaa645c914bab50d1b17923fd73a6dff0b85decb40478e08d1af169d4a8898d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-18",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-18.csv.gz",
+   "sha256": "6e73739d422d85e5ebd58a3776fd292074b1e1411b81c6c899e1e28e084a3286",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-19",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-19.csv.gz",
+   "sha256": "cf84f3d0e176a093c272f9f6aced88c984c2dbd26ade30a99b953dde75341cf7",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-20",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-20.csv.gz",
+   "sha256": "2bcc5c5e77c041917b1b0ae5f0391a65e211d14571df1e0518749485ad5de157",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-21",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-21.csv.gz",
+   "sha256": "548dd74bd928945778bdf1f6ee84800d40283fd76442881c36a84641ebc5bdeb",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-22",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-22.csv.gz",
+   "sha256": "d1e95f524fa64f3b039b7c7ed235c3d224e927547b671de5fa525368984f9848",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-23",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-23.csv.gz",
+   "sha256": "19f70a890aba30719fee9c3ae3b43958ecb4cb705ad9060673d7800241ff9612",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-24",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-24.csv.gz",
+   "sha256": "7f41d96fffddab8bac6b702622cde610b18ba19ceb9566c7c53c042627614ee1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-25",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-25.csv.gz",
+   "sha256": "3612f194cd1aac8aebf42219be1ec4825a0b08154f56865992bbea4086f5bcc0",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-26",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-26.csv.gz",
+   "sha256": "1b1a68dd91516e15c6907cacc0b151ce203c180d8368e20016aa6a22b44f8c24",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-27",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-27.csv.gz",
+   "sha256": "2bdb37eeea73a1e6c7dd8868449b27d285effb3b8aeda6d49d925be0d01ba749",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-28",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-28.csv.gz",
+   "sha256": "990a88bfd36a6fe429d8eebac431015ae8ef86ad46cfa6e8292960e60010df7d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-29",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-29.csv.gz",
+   "sha256": "a42421c54fb81441a857a417a37b1e707eed98a698f0d4f89ee9fbd3c13ddf8d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-30",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-30.csv.gz",
+   "sha256": "f5e33d3c6ef8c089ca61e3bf03b9e9006a6a9917e40c6f68211973b091a0e4f2",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2025-12-31",
+   "status": "baixado",
+   "file": "epss_scores-2025-12-31.csv.gz",
+   "sha256": "f8b323ba6b7f1fa355df7e8e9931d4a75a33f905a6f611c71ba73fd933c4dc61",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-01",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-01.csv.gz",
+   "sha256": "24c0b7ed6ce5a385b16899e5496c15820fcf8df1e307b194b8c64c7c0549e354",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-02",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-02.csv.gz",
+   "sha256": "64474c039c046c009e0ec59c33e234d57ab7ed3d9070def805599d3c9712e99b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-03",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-03.csv.gz",
+   "sha256": "111e68a37994890b2011291593ef271d3197928489672dc028b5a305c38fddac",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-04",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-04.csv.gz",
+   "sha256": "2b2cf8ea4c0c57248144233582a4d20b7a0aade35cdbc8fab0489f7859c1d7a3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-05",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-05.csv.gz",
+   "sha256": "11cef26a0b3a442396458f50348acc17b2669d3ecc1ec8dbb034cc9d485fd340",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-06",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-06.csv.gz",
+   "sha256": "7646ce008bf16941764afb304bdada89ba9aeeda23b931baf340d000ac5b1f7f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-07",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-07.csv.gz",
+   "sha256": "f78036a7e08c1cf60647cdbf9670ee4049a3725a2af2f8e0ad4f1db9075c53c1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-08",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-08.csv.gz",
+   "sha256": "20acedd49a865793431a08a04465698ab66296defc29fffd4982a6a81d86d5e7",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-09",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-09.csv.gz",
+   "sha256": "67bbfbf7b1477f3f3de33499a3db447e6b21f8c29565a26b271321c240b05dbd",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-10",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-10.csv.gz",
+   "sha256": "5994812a384ca37c96bc45165aa9db80967d75e3e5a6be41d5a17cbe1caa3659",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-11",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-11.csv.gz",
+   "sha256": "d1cd3d527a03c189ada156e8d43e4163ad076711e8b3bdf6a507574fec199cfc",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-12",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-12.csv.gz",
+   "sha256": "2fa63a1deeb731f26a657ccfd8acb59fba5625de63ff061df5c6246520e2381a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-13",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-13.csv.gz",
+   "sha256": "3b3cdf73bd653f2b117b200943e3fa5e39683be7043b6d8027b262e89c9af558",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-14",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-14.csv.gz",
+   "sha256": "5e82d16684bc27e45766352e6a7d8dd7695699b731a29c9ffccc242f8c71a90c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-15",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-15.csv.gz",
+   "sha256": "edf124349600ae6e9532288e4dcafe60b6061efdc7929c596b772a023935db6f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-16",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-16.csv.gz",
+   "sha256": "7dd6e47b627b7e9c105d9af425a4293799596b003f9489a6a7ece3e8c8431218",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-17",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-17.csv.gz",
+   "sha256": "876a110394b1e01f42339d6627f9686253097d90122c8cac434cb79d93733544",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-18",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-18.csv.gz",
+   "sha256": "5e1117ea69f827bc4bc316963660b92c308d94c0e65ae302035516b12c74bdb8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-19",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-19.csv.gz",
+   "sha256": "2f9904ed1f97cdfdc1503a7bb516401ca60a8e33ba060db9f019ad2806024ef2",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-20",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-20.csv.gz",
+   "sha256": "be1ad387b4938a49b2e72bba47d5d74f0f83fc062f97dcbffbbb3b9e46c77db5",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-21",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-21.csv.gz",
+   "sha256": "f2743bae6714f769ecdf66060c15a6b243cab7ba5b70d5da17eb9691c9a3442b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-22",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-22.csv.gz",
+   "sha256": "94ca722338ce7c7c03a2d469e5497aeca70a07f04df7927f7810c98675877346",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-23",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-23.csv.gz",
+   "sha256": "a6a4d3607ec922cc68ff1de8c286f5110b5b8568f09133098ea5de21c067937f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-24",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-24.csv.gz",
+   "sha256": "89f77c68dc52242e35a5337c7d9bbef989587ecdd3f9d4974e98d6ad525bdf70",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-25",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-25.csv.gz",
+   "sha256": "d0a6999b532042860b0373df6944f3ba0e2ce051c0234ad1b9a1c0f219bfb598",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-26",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-26.csv.gz",
+   "sha256": "b00273eb9af1d5adc3242667f68ffed8606beecab446a3d5b50f9539827706da",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-27",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-27.csv.gz",
+   "sha256": "54e7a33d13533e2f95c223b2797469c9001deb42ad374f504c344d38c19a8f42",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-28",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-28.csv.gz",
+   "sha256": "1892ce3eecf961da56f7879387e43368387a215e86430dde37d5a4807ac63f53",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-29",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-29.csv.gz",
+   "sha256": "8b344ba5e2144927e5ae3fbfe76668eff4b5c337332637387aa1a0bf7cf288e9",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-30",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-30.csv.gz",
+   "sha256": "c016007aec41fae1a75e502290ff054cab8b4824516105a0f085b4b30bd3ae2c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-01-31",
+   "status": "baixado",
+   "file": "epss_scores-2026-01-31.csv.gz",
+   "sha256": "6d484bc714fde18b5567fadc95d24a03c10f846b8ceed91123f54c8314b7bfe8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-01",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-01.csv.gz",
+   "sha256": "e4387473a8b92b0c85aff8837c4669d41ce8801c1019dee2dd54fb43b54b8c96",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-02",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-02.csv.gz",
+   "sha256": "25b601047fe735773ac194fddba461891c6cd47f02de11b818ac6648f9b53c1a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-03",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-03.csv.gz",
+   "sha256": "c431aac74a92329443a8af38cf89c86341f9cdbe9db49c5bc0752fa784989964",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-04",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-04.csv.gz",
+   "sha256": "257d86bf5e2e40544b28a0cbdd2ddbeb91ac78f7a00564c129d26116d86c4775",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-05",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-05.csv.gz",
+   "sha256": "47d926372df602fcbdfdfd8efa1603211cea7e2408efd0eecfba7c4baba23347",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-06",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-06.csv.gz",
+   "sha256": "ead1b1487ee89dc515f1d7ef954bd314dbfe1b328d2dd30fd2025e2e90d5cee8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-07",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-07.csv.gz",
+   "sha256": "4b69d0e69c1e3c7875fd9c7202af838bf34e74a7d89e2836a6221864c0f52c2e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-08",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-08.csv.gz",
+   "sha256": "05ab962644a652ba1f391c9d6e685b3d1912798d1860f926245ce612847dd912",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-09",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-09.csv.gz",
+   "sha256": "c7ef6c0d6dffb73c7f96806fd3fdfe39aa4ef09f6bec92b201da1c9221d6994b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-10",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-10.csv.gz",
+   "sha256": "d7a00c5546a2d3c6bf7e8b97db00803e2c6abe623239099720da1dfee9e8808f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-11",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-11.csv.gz",
+   "sha256": "47ca947188508948ff47d3f706e9161be339c94982f3ce54de66af643ec6f5d2",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-12",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-12.csv.gz",
+   "sha256": "0cff968969ed93a6a30d6af6bfae767f9e7eaf68f3818ac52fe03ee96fb37150",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-13",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-13.csv.gz",
+   "sha256": "c80dc755e2baa3486a66bd58c24e72c7b4086c12dd0e33e7c0d6a245ecd21af8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-14",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-14.csv.gz",
+   "sha256": "9e8fa58f3d6f24e08241218aa47d4ada88ba3a10be9e15bbfbc3b71fda078f5f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-15",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-15.csv.gz",
+   "sha256": "e414483c67101614108fc18d02420a3b920986fe25ff760203dbbab22d817d8a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-16",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-16.csv.gz",
+   "sha256": "c01abcd6cc242a3ceeff22e935e9ec82bcf72124be2b8abdb9e3ffb76b16d0b3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-17",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-17.csv.gz",
+   "sha256": "d7460ea488a41c7b458bbb06587dec31c9abb8b3a138a8c16e9f8b0eaf353057",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-18",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-18.csv.gz",
+   "sha256": "fad8e64bea11b7ee1dd40341375d69210937536f3b7aded89217fada2af6a2f1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-19",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-19.csv.gz",
+   "sha256": "93dacbf23e8635a4ff60187377cfc08875073be195c2e1ffb0df9e0585c5cf9c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-20",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-20.csv.gz",
+   "sha256": "acd4f2457bbdb378afbf9e5a1d3061627e7a43a530871743305958230de5d13d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-21",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-21.csv.gz",
+   "sha256": "d24b119d421cc341a483bf0d5f8059b45f2f456a9b0842811673b6b6502d6416",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-22",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-22.csv.gz",
+   "sha256": "73c6218a8a10dd5684fedf336e5d44a32b0bdbeb9922c6241144273472b2f26e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-23",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-23.csv.gz",
+   "sha256": "fab834f2c45d51053b319ac049e22e6dfeb2b837eaa6db141d3d06e719f47f6c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-24",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-24.csv.gz",
+   "sha256": "465e658ee30bb7652e7e86519200932e6fc6dccddcf11601b2a4d460bdf28a22",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-25",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-25.csv.gz",
+   "sha256": "f5b2a2e2dabf3722d6ed25e7cd7b2f41e8a02d69743efd771dd352180bc798e8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-26",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-26.csv.gz",
+   "sha256": "a9809d0dea707abf45dca612c9b51a2b0b8067ed58c813e8f5894cdaa19c24b4",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-27",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-27.csv.gz",
+   "sha256": "e53a1b49641288616d4093c06e4b726204096317ff389f96803316eb3154b058",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-02-28",
+   "status": "baixado",
+   "file": "epss_scores-2026-02-28.csv.gz",
+   "sha256": "e0b0fcf729b285d6ad8ad87040ef80610c40d6d6c3c54339c6301c126b84caac",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-01",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-01.csv.gz",
+   "sha256": "a09cf639aac8aec106e5999bce4e28d1a9cd82e0134d01528dffced6f1b82b69",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-02",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-02.csv.gz",
+   "sha256": "b6fbb0d689f26d1909deb807f7bcb54f3d09a2d80fa11c8561eaa4a1f6212b7e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-03",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-03.csv.gz",
+   "sha256": "2a8cadc9a94634553d021f390681b315d118ff2300f4ae8e55ef1ecc2e6ce7a5",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-04",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-04.csv.gz",
+   "sha256": "8027ddf05041f0b7c25c7f325c462e72806f92a1b07691c00cb6e32466742044",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-05",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-05.csv.gz",
+   "sha256": "887651a79764737b3b904e4e2d23b834ee692b268a6b4e4a683e6d58287afa2e",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-06",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-06.csv.gz",
+   "sha256": "ff3a65e799ab6a0593b16cd8f1db4d7c3d72758a1ca2bd29042ee2d5d0da721f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-07",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-07.csv.gz",
+   "sha256": "baf6c040de212af9a05f5885d480b94775f468169ec21e29d5a323f8d3f56ed4",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-08",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-08.csv.gz",
+   "sha256": "9b8295fef66dd1a5e213bc80c7654c0d6e5fd4ea401600e54e61755bb0f77b30",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-09",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-09.csv.gz",
+   "sha256": "0ee7cd06695a541a2546b9374e268ebbd6743376f272fe87d36eced26e7207f4",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-10",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-10.csv.gz",
+   "sha256": "3ffa3d37422de0efc5fd19262ede776d9d538d354c9c97243e642235e110c795",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-11",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-11.csv.gz",
+   "sha256": "b932d0ebae55cd67753c814c4348040951a0cfeb36e28de6c49a4c46047958f9",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-12",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-12.csv.gz",
+   "sha256": "c75310910a46dbef3c356b52ecc14f1633c33a659bdbac6c89eb21e48347e86b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-13",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-13.csv.gz",
+   "sha256": "d9bdc48ef6177c65bd641a90376c40103243e6ba2a93ca0d562d030d79089be7",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-14",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-14.csv.gz",
+   "sha256": "8dfa361f66bced0c8e4dad782515b47992c03baae7bf1980c8b2309135cdc159",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-15",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-15.csv.gz",
+   "sha256": "d10b87f49fe0c2e9c4512d676d04e40b91fb887e31959fac04e6a08cb4a31995",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-16",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-16.csv.gz",
+   "sha256": "2880e40818c8421d72740b025dbf79222d76b5c58036b4a5ca919a1899e528bb",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-17",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-17.csv.gz",
+   "sha256": "988f44fb4ad4277179455fc0309660019e7d711de1e10321547bc3fc91fd9c2b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-18",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-18.csv.gz",
+   "sha256": "095d88996c1c3aed1a27539d64be39693dbe08bbc5bef02de2b638c8a0a6312b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-19",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-19.csv.gz",
+   "sha256": "fe498e26359ce7c53d992b4af724bab32a0a7a368a433e923fa94784d0d15b39",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-20",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-20.csv.gz",
+   "sha256": "d2087e90ca615c75691546e0737de90ab8c63d31a05203fefadabb7278d7943d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-21",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-21.csv.gz",
+   "sha256": "7a97d65e709ea39a24344fc3438813aafb535010c5e6a1a9a5147654fc75cee0",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-22",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-22.csv.gz",
+   "sha256": "2e9c9abc3a859788a0003fc1b621806adfc72e55121556b77ee86f7964bd5f7a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-23",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-23.csv.gz",
+   "sha256": "5afcc51aabe56bfc260f8488cc4948c7189b3608f04c9b4278c65e4958cee5d1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-24",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-24.csv.gz",
+   "sha256": "5881a17345e45d0efa5ce9df77995acc1daf2a33727b9dc7b8e9c0b42192f107",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-25",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-25.csv.gz",
+   "sha256": "37935add2ba7841786f18b162ecadb8d7d9358f8508e3392248894e7c68ecba8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-26",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-26.csv.gz",
+   "sha256": "32a4a18f313b71caa12a3eb104b3bcd0ec0e078735f4a6ce4801eb16008b2f31",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-27",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-27.csv.gz",
+   "sha256": "9145bdd97d9edcf906c7d09346f7aef4756a1f9a2e48cfb28618253ecfe8139b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-28",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-28.csv.gz",
+   "sha256": "4142d140e44646f96e977594c508b4ee491c9579988ea89b53986e09fb50b92d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-29",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-29.csv.gz",
+   "sha256": "7a33bf53a81ccfc943e58bf64dcad6b652c762cad19dd62472028406a1ab8409",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-30",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-30.csv.gz",
+   "sha256": "99bd5c5b82aa891f54e504c355a9df0902699a01a0a876774aca776b8ba31699",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-03-31",
+   "status": "baixado",
+   "file": "epss_scores-2026-03-31.csv.gz",
+   "sha256": "f6ee75daf2ef2455230a3e743417bc2b664f1cbc191bffbafbca1f92c2fc7b06",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-01",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-01.csv.gz",
+   "sha256": "1ebc89bb171e7ca54b217c5e561ffa931d15e6187be5dd204f5fec031a3ad6d8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-02",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-02.csv.gz",
+   "sha256": "23df3628de04a66afc241efd02c5a70b0f2bf24ae7da727da848976b486ef718",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-03",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-03.csv.gz",
+   "sha256": "523595e88d2a88b3aa7f58ff5c3c68a5e1220bd0e2e88f848b0e50051ae24345",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-04",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-04.csv.gz",
+   "sha256": "f23a6d2c7eb5b435e1278cd802ba4fe0ffd2f23f87b4b2811e9def586561f3dc",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-05",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-05.csv.gz",
+   "sha256": "e927b555e8cc19e5077cc3c6b410c86d655c5c2dfd387b78ce48ab4939bc3fee",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-06",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-06.csv.gz",
+   "sha256": "9cf47e9f736d0e8426a89a9d4081d73da341e0c962a9bdb44edfb76ad711ed29",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-07",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-07.csv.gz",
+   "sha256": "81d9db4f3b6a813832d0102e88bbe0b1fdd3a91f61ddafe78472ca11b9a9eba3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-08",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-08.csv.gz",
+   "sha256": "727fbf14fcf38306d44960a82e0fe38ce5fe6809ffda7be7de008022ff3c2e8b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-09",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-09.csv.gz",
+   "sha256": "6f82c77551ad845bc05ca9576858934ab5b6d100043de6ed4b21910d3770b4f8",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-10",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-10.csv.gz",
+   "sha256": "f2cf8a034544a953a1123c79955e0862c1a1cd32f996f516142501befdf5c064",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-11",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-11.csv.gz",
+   "sha256": "1f39bb93a4676bc9eb608c9ea49c1761ee9f9f93a55ed6d9ed4b823bf2998659",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-12",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-12.csv.gz",
+   "sha256": "89475465791b2c4ab8f7669ef6245d8cd056ca0f95702191c6a8f9fce59ae324",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-13",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-13.csv.gz",
+   "sha256": "7de78964e9c6e62b868add0cee8044a195bdfe744504f46df6d317c1bfbefd11",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-14",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-14.csv.gz",
+   "sha256": "dd3f24a68ff2b9138ced209309b0037afd1eae180f00379064d80f33114a12f5",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-15",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-15.csv.gz",
+   "sha256": "abcf1062754758ede31c4f7bc23f436c9f1e6f51c54c6086060d170b86669f74",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-16",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-16.csv.gz",
+   "sha256": "06fc6058957835b266b44f706fad69b384007ce22834418090803fd0e13d6dea",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-17",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-17.csv.gz",
+   "sha256": "da86943371fcaabafdac50084368f438a9907b49418e46d110581b47e0e8ecc6",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-18",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-18.csv.gz",
+   "sha256": "d3402026832331ef128ee4cee1532aefcdc499d9710559643631ff56bd760908",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-19",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-19.csv.gz",
+   "sha256": "36c4abb4eee7baa77d24099c0eba697545c1aa4623547d971945fb26700517b0",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-20",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-20.csv.gz",
+   "sha256": "56b8fba7a3465ef4c5ecb39343649fcb3495b13f1a97a56b89525c04bb11e2ab",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-21",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-21.csv.gz",
+   "sha256": "5c811c0faf0d0b476ca9c4c7e76980064b183120fea94f48cc08584cff1388e5",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-22",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-22.csv.gz",
+   "sha256": "7f13232a60338e2075108bb2393b1e830e49e40e495e8e46b89893f43a5c1bb7",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-23",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-23.csv.gz",
+   "sha256": "972f4b18016918f68db04fdfa75d35b065452564e7e5973166718196edad8fad",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-24",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-24.csv.gz",
+   "sha256": "cf8f1fc6c9df9e6d1e393aa84dac77ae7a1213c7c29de8b3aeba7a1c83fe0a46",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-25",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-25.csv.gz",
+   "sha256": "89e4cd476f8b8a86387a8bd08ac00d5c294f899594c729311a4ca3f10b08d9dd",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-26",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-26.csv.gz",
+   "sha256": "c4225c8ad919364fe3253b6aefc3526d8ec5b63e7b4799661a54eb6cda6ed958",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-27",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-27.csv.gz",
+   "sha256": "8ff54b72dc0ff73d3387a667bab7f942eeb97c98acce36bec77c7390886d4194",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-28",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-28.csv.gz",
+   "sha256": "8bbe9b10f415632cf3f4c714df0eeffb751aa6f10b175e9cb2eb54595b739877",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-29",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-29.csv.gz",
+   "sha256": "c553b8eb073dbcf56b3e0f4990043cfeaa7005039b63db37f40e509c71fe6586",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-04-30",
+   "status": "baixado",
+   "file": "epss_scores-2026-04-30.csv.gz",
+   "sha256": "692edb794676b103ffb95004b01f8d1ac22bdb4dd7d66b047febf05b55db5bfd",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-01",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-01.csv.gz",
+   "sha256": "cffa98fe30b3aad3aa8c5e1dc0f592fa8bb072bbadbf2b9e5ebf8ebf100d12af",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-02",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-02.csv.gz",
+   "sha256": "2d17cb2538f0950691c5f35df66fcbb7b0998efb3b8af86b2bbf16efae7e5473",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-03",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-03.csv.gz",
+   "sha256": "f1592366aa54532be5c3a0f16748ace93500d30de28d3f4e623707a1b482874d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-04",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-04.csv.gz",
+   "sha256": "91c0dc1a67dd94e41d1e3fc50727386d5b3405fc5d030f0a94caa667a1fe6cf1",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-05",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-05.csv.gz",
+   "sha256": "5d5bd42dd08fc7c3bd6d46bfb95cc198ce000b6d45481515704cf7f1c66e5176",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-06",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-06.csv.gz",
+   "sha256": "1a8718f43c688d7652b2ff76f643ef960eebca97b17200d1dcfbb7bafdc6af08",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-07",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-07.csv.gz",
+   "sha256": "eb54b1c05b00cf3e32a44fc6191c2743da3e199a92ae03bb7fd0f7362087aeaa",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-08",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-08.csv.gz",
+   "sha256": "fa35515d5a1d7920d44db57ae146854ac9092e340fa477dd5343bd83e93ccc9c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-09",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-09.csv.gz",
+   "sha256": "46b5a086f8cae63cd45c39103aaa14b7e41d45e102ffdd621f2fc031d6d73e54",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-10",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-10.csv.gz",
+   "sha256": "902d3db023e4cb8b9bc65a30fd5d48a55330f3f84a2a452216d265f61a1bc2de",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-11",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-11.csv.gz",
+   "sha256": "6580ff0aa201143924fef55b5673699ea889a07030e57671ea2b3fcddd0e8a02",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-12",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-12.csv.gz",
+   "sha256": "a31adcf748b95e567dfe7503b6895ca44e92ab83d5c8e3e9bbcda591a1b99ddd",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-13",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-13.csv.gz",
+   "sha256": "62c353eecedbdb906baa021cfe72ba138ae3426489635c20b1157a08bff007e4",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-14",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-14.csv.gz",
+   "sha256": "07a4e43ceb4336c345ed4d8f88513e8e603827fed4f6275c477d8a1acfbf7d6d",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-15",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-15.csv.gz",
+   "sha256": "b1e8b66f5b45fa57c754fc0c3921e4953d24ee468ef81804f354785aa4c6ae69",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-16",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-16.csv.gz",
+   "sha256": "5d2a000912729988e7a75e224508bf6c050bb82a9368c56638f633b50fe80877",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-17",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-17.csv.gz",
+   "sha256": "d53bb69d8a929ed4c0510c5d77f8a0215f774ce94591893ec51f7403e9ce20b9",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-18",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-18.csv.gz",
+   "sha256": "f21267002dbd60548a931ba65511966cfa9f1a0a9407c7b9eb0befec5d49a7c3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-19",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-19.csv.gz",
+   "sha256": "e75205a187e3d8959c3ef9a2b1c39753958c6d56f2c5d392cf8c8c76b81e3621",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-20",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-20.csv.gz",
+   "sha256": "1163a18900392e886d7de08cd558fa3f088fde38250de6b0dd128b4793c80f8a",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-21",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-21.csv.gz",
+   "sha256": "a4dc828a828fc700cd51e9f394a7bfd02ef740ba788e86d06bb40e49fac26d29",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-22",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-22.csv.gz",
+   "sha256": "f7ea92501d7070b365debfe6b05baa1f9f53f1998b35a0804727759c91c02449",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-23",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-23.csv.gz",
+   "sha256": "0c4f08b44ffe382393146f0cbe3e5b25c9129b740504d5611719861966d13d87",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-24",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-24.csv.gz",
+   "sha256": "cfc5f606a0d429e46e4d6fca6e3f5a80ffd11289d169afbbc8689e6dbd682517",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-25",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-25.csv.gz",
+   "sha256": "ba7592a23dca0505c7589cb6f62d410db2789799e5449c3b4fa75ec73f17990c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-26",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-26.csv.gz",
+   "sha256": "23ce2b09ddbda802ca15262327c96732569997790378a4ceea18a860038a0862",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-27",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-27.csv.gz",
+   "sha256": "ebf03dd92480a307fba344d5841a39496c30544b2b5277106ebfcb0a18ecbb01",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-28",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-28.csv.gz",
+   "sha256": "feede7ec70181ded01f51df567ff60ee0c3f23c5446dbfb5f5be09ae1f4a2212",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-29",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-29.csv.gz",
+   "sha256": "346558a73792ff8bc1454ca4458f230f068ecbb28dfb3020e1f2f601f579531f",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-30",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-30.csv.gz",
+   "sha256": "6a39dfeafd7bc89b9da11171c38e6e1361418a3d5b2e5a31a3c7a7d88b674667",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-05-31",
+   "status": "baixado",
+   "file": "epss_scores-2026-05-31.csv.gz",
+   "sha256": "992e1ea0c54d4f3985177a37bdbbd2d5c08bdc5c5b564561d08d3f024df1bb13",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-01",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-01.csv.gz",
+   "sha256": "02faddfe00053bba47b50c6e7c4045dc66e6b998566716e21ede85e4b8cf01ba",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-02",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-02.csv.gz",
+   "sha256": "61a62d1480695051b5903b749b30f818a0a8000162c93d22206e490c108d156c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-03",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-03.csv.gz",
+   "sha256": "1cf926c330ca86f46db0a0eeca7bb249a95bef3dbdec87f8eadb442ca8cdbcfc",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-04",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-04.csv.gz",
+   "sha256": "5a132f2c44c7018b84106360e97d8405c0e882f7788462fc91223ae1229e1d3b",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-05",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-05.csv.gz",
+   "sha256": "3941a95a8e578aef7bdc3c9f0535640bff600d39103a34242b8ee5f11bad7605",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-06",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-06.csv.gz",
+   "sha256": "0b53cd3d02db0260ebcdaa27a68493f2ed75038966087c2f1d8bc266dda5dd44",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-07",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-07.csv.gz",
+   "sha256": "0776fe3f937be7646b6ee00b2507eb56fd26c4dbb9e82e433aa82d87a4d99a20",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-08",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-08.csv.gz",
+   "sha256": "87591c93a549e93525ea6719dd9aa782eafe0d88e21bafd8969455e4b921b235",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-09",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-09.csv.gz",
+   "sha256": "a1c86f7681b17030af82a8758d39fd5f6039245619d3005fea39adfb48c7c6f4",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-10",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-10.csv.gz",
+   "sha256": "5ef212332a039fede7c8e14c8f9746d4002571706c92d88187b1bc983f9cdafe",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-11",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-11.csv.gz",
+   "sha256": "745bd1f60562e2b47738f69751259ce2a4804e4bf98edee3c000bb10063cfbe3",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-12",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-12.csv.gz",
+   "sha256": "80cfd94838c568c8b4058444836622dc7757a76f4f7fac6a34a695e57f322188",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-13",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-13.csv.gz",
+   "sha256": "23b504a6afa8a7f7c0a9914c48eca95350bbc4ffee6f00e82a2295ca9cff598c",
+   "model_version": "v2025.03.14"
+  },
+  {
+   "date": "2026-06-14",
+   "status": "baixado",
+   "file": "epss_scores-2026-06-14.csv.gz",
+   "sha256": "58991b27dc1fbd4790b137fb6b949e4f6f68bccc7165a356da08bfbeb1502764",
+   "model_version": "v2025.03.14"
+  }
+ ]
+}

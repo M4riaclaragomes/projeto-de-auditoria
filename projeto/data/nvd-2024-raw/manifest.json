@@ -1,0 +1,32 @@
+﻿{
+    "api":  "https://services.nvd.nist.gov/rest/json/cves/2.0",
+    "resultsPerPage":  2000,
+    "totalResults":  40704,
+    "retrievedAtUtc":  "2026-10-26T03:57:45.2736630Z",
+    "windows":  [
+                    {
+                        "pubStartDate":  "2024-01-01T00:00:00.000Z",
+                        "pubEndDate":  "2024-04-29T23:59:59.999Z",
+                        "totalResults":  12553,
+                        "pages":  7
+                    },
+                    {
+                        "pubStartDate":  "2024-04-30T00:00:00.000Z",
+                        "pubEndDate":  "2024-08-27T23:59:59.999Z",
+                        "totalResults":  14180,
+                        "pages":  8
+                    },
+                    {
+                        "pubStartDate":  "2024-08-28T00:00:00.000Z",
+                        "pubEndDate":  "2024-12-25T23:59:59.999Z",
+                        "totalResults":  13339,
+                        "pages":  7
+                    },
+                    {
+                        "pubStartDate":  "2024-12-26T00:00:00.000Z",
+                        "pubEndDate":  "2024-12-31T23:59:59.999Z",
+                        "totalResults":  632,
+                        "pages":  1
+                    }
+                ]
+}

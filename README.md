@@ -1,95 +1,121 @@
-# Projeto de Auditoria — Priorização adaptativa de vulnerabilidades
+# Projeto de Auditoria: priorização adaptativa de vulnerabilidades
 
-Replicação, auditoria e extensão do artigo *Evaluating Vulnerability Prioritization Strategies Based on CVSS and
-EPSS* (SBSeg 2026), desenvolvida como trabalho da disciplina na UFPE.
+Replicação, auditoria e **extensão** do artigo *Evaluating Vulnerability Prioritization Strategies Based on CVSS
+and EPSS* (SBSeg 2026), feita como trabalho da disciplina na UFPE.
 
-A pergunta central: quando a equipe só consegue corrigir **K vulnerabilidades por semana**, como equilibrar
-**eficácia** (antecipar as CVEs que depois entram no catálogo CISA KEV), **estabilidade** do plano de trabalho e o
-**orçamento** limitado? O trabalho avança em fases. Cada fase é auditada, pré-registrada antes de ver os
-resultados, reprodutível e preserva as fases anteriores sem modificá-las. Não há aprendizado de máquina.
+* **Parte 1, a replicação** (pasta `projeto/`): refizemos o experimento do artigo com dados públicos. As conclusões
+  do artigo se mantiveram.
+* **Parte 2, a extensão** (pasta `extensao/`): o que fizemos de novo. Em vez de uma foto da nota do EPSS, simulamos
+  a fila de correção **semana a semana**, com limite de correções, e comparamos jeitos de montar a fila, inclusive
+  um **plano travado** que não muda toda semana. Validamos numa base nova, de 2025.
 
-## Fases
+## O professor consegue rodar? Sim, em três níveis
 
-| Fase | O que é | Onde |
-|---|---|---|
-| **A** | Auditoria da replicação original (coleta do NVD 2024, filtragem, histórico do EPSS, 13 estratégias por limiar) | `projeto/` |
-| **B** | Experimento EST × DIN-1 na coorte 2024 (fila ordenada pelo EPSS fixo na entrada × reordenada toda semana) | `extensao/` |
-| **C** | DIN-ESTAB: controle de estabilidade do plano semanal (bônus λ às CVEs já planejadas) | `extensao/` |
-| **D** | Validação temporal numa coorte independente de 2025 (EPSS v4). T1 e T2 têm resultados gravados; a H-D1 ficou inconclusiva por poucos eventos. Falta verificar se a T2 foi executada uma única vez (ver `extensao/docs/ATUALIZACAO_FASE_D_2026-11-22.md`) | `extensao/` |
+Não é preciso baixar nada para os níveis 1 e 2: os dados necessários estão no repositório.
 
-Resultados principais das Fases B e C (K = 50, coorte 2024), conforme os arquivos de resultados:
+| Nível | O que faz | Comando | Tempo | Internet |
+|---|---|---|---|---|
+| **0. Ler** | Ver resultados, tabelas e figuras já gerados | abrir `extensao/results/` | 0 | não |
+| **1. Verificar** | Confere ambiente, protocolos congelados (SHA-256), manifestos e roda os testes | `python verificar.py` | ~3 min | não |
+| **2. Reproduzir** | **Refaz os resultados das Fases A, B, C e D** numa pasta temporária e compara com os versionados | `python verificar.py --reproduzir --rapido` (sem as 20 sementes) ou `--reproduzir` (completo) | ~8 min / ~20 min | não |
+| **3. Do zero** | Baixa o EPSS diário (~1,5 GB) e reconstrói os dados derivados | ver `extensao/data/raw/LEIAME.md` | horas | sim |
 
-- A DIN-1 antecipou 27 KEV contra 15 da EST (+14 p.p. de recall); a vantagem some com K = 500.
-- A DIN-ESTAB com λ = ∞ (plano travado) antecipa 25 KEV com zero revisões do plano (ΣR = 0).
-- Na T2 (2025, 79 eventos, K = 50), a DIN-1 antecipou 29 KEV contra 26 da EST (+3; McNemar p = 0,61): a vantagem de 2024 não se repetiu com clareza. O plano travado antecipou 24, com zero revisões. A H-D1 ficou inconclusiva por poucos eventos.
-- Os resultados são preliminares: poucos eventos e um único catálogo KEV.
+O nível 3 é opcional: serve para auditar a construção dos dados derivados. Os níveis 1 e 2 já mostram que o código roda,
+que os testes passam e que os números publicados saem do código.
 
-Em caso de divergência entre este texto e um arquivo de resultados ou protocolo congelado, **vale o arquivo**.
+### Passo a passo
 
-## Estrutura do repositório
-
-```
-projeto/                 Fase A (somente leitura): scripts PowerShell/Python e dados pequenos
-extensao/
-  src/vulnprio/          código das políticas, simulador, métricas e experimentos
-  tests/                 testes de integridade e regressão
-  scripts/               coleta de EPSS diário, KEV e NVD
-  freeze/                protocolos congelados e manifestos SHA-256 (não alterar)
-  results/               resultados das Fases B, C e D
-  auditoria_final/       pacote de auditoria da Fase D (T1 e T2)
-  data/derived/          coortes e matrizes de EPSS geradas
-  data/raw/kev/          catálogo KEV congelado (2026.11.20)
-  docs/                  registros de desvios do protocolo
-  CONTINUIDADE.md        histórico completo, decisões e próximos passos
-  README*.md             detalhes de cada fase
-```
-
-**Por onde começar:** leia `extensao/CONTINUIDADE.md` (visão geral e estado atual) e depois
-`extensao/README_FASE_D.md` e `extensao/freeze/protocolo_fase_d.md`.
-
-## Dados brutos (não versionados)
-
-Para caber no GitHub, os dados brutos grandes ficam **fora do repositório** (ver `.gitignore`):
-
-- `extensao/data/raw/epss_daily*/` — EPSS diário (~1,5 GB)
-- `extensao/data/raw/nvd-2025/` — páginas da API 2.0 do NVD (~180 MB)
-- `projeto/data/nvd-2024-raw/` e os dois `projeto/data/nvd-2024-filtered*.jsonl` (~600 MB)
-
-Eles podem ser recriados com os scripts de coleta (a partir de `extensao/`):
-
-```powershell
-python scripts/coleta_epss_diario.py --inicio 2024-01-01 --fim 2025-03-16
-python scripts/coleta_kev.py
-python scripts/coleta_nvd.py --inicio 2025-01-01 --fim 2025-11-19 --saida data/raw/nvd-2025
-```
-
-A Fase A usa `projeto/fetch_nvd_2024.ps1` para o NVD 2024. **Atenção:** a API do NVD muda com o tempo, então uma nova
-coleta pode não reproduzir os snapshots originais byte a byte. Os manifestos em `extensao/freeze/` registram o
-SHA-256 do que foi usado; guarde um backup dos dados originais.
-
-## Como reproduzir
-
-Requer Python 3.13 (versões fixadas em `extensao/requirements.txt`: numpy, pandas, scipy, matplotlib, pytest).
-A partir de `extensao/`, com a Fase A em `../projeto` (ou indicada em `FASE_A_DIR`):
+Requer **Python 3.12 ou 3.13** e `git`. O repositório é privado: é preciso ter acesso à conta.
 
 ```bash
-pip install -r requirements.txt
-# conferir que nada congelado mudou
-sha256sum -c freeze/protocolo_fase_b_congelado.sha256 freeze/protocolo_fase_c_preregistro.sha256 freeze/protocolo_fase_d.sha256
-# testes (esperado com todos os dados: 48 passed, 2 skipped)
-PYTHONPATH=src python -m pytest -q -rs tests
-# Fases B e C
-bash rodar_tudo.sh
-bash rodar_fase_c.sh
+git clone https://github.com/M4riaclaragomes/projeto-de-auditoria.git
+cd projeto-de-auditoria
+
+python -m venv .venv
+# Windows (PowerShell):   .venv\Scripts\Activate.ps1
+# Linux / macOS:          source .venv/bin/activate
+python -m pip install -r requirements.txt
+
+python verificar.py --preparar-dados      # descompacta os dados do NVD e confere o SHA-256 de cada um (5 s)
+python verificar.py                       # nível 1  (~3 min)
+python verificar.py --reproduzir --rapido # nível 2  (~8 min). Sem --rapido, refaz também as 20 sementes (~20 min)
 ```
 
-Os testes e a reprodução completa dependem dos dados brutos acima; sem eles, parte da suíte não roda.
+Ao final, o script imprime `Tudo certo` (código de saída 0) ou lista cada problema. Rode `--preparar-dados` antes do
+nível 2: sem ele, a reprodução da Fase A é pulada, com um aviso.
+
+### O que é normal aparecer
+
+* **Quatro testes são "pulados" (skipped), não falham.** Um depende dos arquivos diários do EPSS (nível 3), um confere
+  o ambiente virtual (`.venv`) que a Fase A tinha na época, e dois foram adiados pelo próprio protocolo. O motivo
+  de cada um é impresso.
+* **Avisos sobre o manifesto do EPSS v4:** um hash do manifesto da Fase D não bate com o arquivo atual. É uma divergência
+  que já veio no material recebido; está explicada na saída e em `extensao/docs/ATUALIZACAO_FASE_D_2026-11-22.md`.
+* **Windows:** o `verificar.py` já ativa o modo UTF-8 do Python. Se você rodar os módulos à mão, faça antes
+  `$env:PYTHONUTF8 = "1"`; sem isso o Python grava arquivos com o caractere "λ" usando a codificação do Windows e falha.
+
+## Mapa do repositório
+
+```
+README.md                  este arquivo
+verificar.py               verificação e reprodução em um comando
+requirements.txt           dependências (versões fixadas)
+dados_compactados/         dados do NVD (2024 e 2025) em .gz, conferidos por SHA-256
+projeto/                   PARTE 1 · Fase A: replicação do artigo (somente leitura)  → LEIAME.md
+extensao/                  PARTE 2 · Fases B, C e D: a extensão
+  src/vulnprio/              código: políticas, simulador, métricas e experimentos
+  tests/                     testes de integridade e regressão
+  results/                   RESULTADOS: fase_b_2024/, fase_c_2024/, fase_d/ (T1, T2 e exploratórios)
+  freeze/                    protocolos congelados e manifestos SHA-256 (não alterar)
+  docs/                      registros de desvios e a nota de atualização da Fase D
+  data/derived/              dados derivados (entrada dos experimentos)
+  data/raw/                  dados brutos: KEV congelado e manifestos            → LEIAME.md
+  scripts/                   coleta de EPSS, KEV e NVD
+  auditoria_final/           pacote de auditoria da Fase D (T1 e T2)
+  CONTINUIDADE.md            histórico completo, decisões e próximos passos
+  README*.md                 detalhes de cada fase
+```
+
+### Onde achar cada coisa
+
+| Quero ver... | Está em |
+|---|---|
+| O que foi decidido e por quê | `extensao/freeze/protocolo_fase_b_congelado.md`, `protocolo_fase_c_preregistro.md`, `protocolo_fase_d.md` |
+| Resultados da replicação | `projeto/data/nvd-2024-replication-report*.md` e `nvd-2024-comparison.md` |
+| EST × DIN-1 em 2024 | `extensao/results/fase_b_2024/` (`comparacao_EST_DIN_por_K.csv`, `estatistica_mcnemar_bootstrap.csv`, `figuras/`) |
+| Plano travado (estabilidade) | `extensao/results/fase_c_2024/` |
+| Validação em 2025 (T2) | `extensao/results/fase_d/T2/` e `extensao/results/fase_d/RELATORIO_FASE_D.md` |
+| Estado atual e próximos passos | `extensao/CONTINUIDADE.md` e `extensao/docs/ATUALIZACAO_FASE_D_2026-11-22.md` |
+| Desvios do protocolo | `extensao/docs/REGISTRO_DE_DESVIOS*.md` |
+
+## Resultados em resumo
+
+Com limite de 50 correções por semana:
+
+* **2024:** a fila atualizada toda semana (DIN-1) antecipou **27** das 86 falhas que depois entraram na lista KEV,
+  contra **15** da fila fixa (EST). A vantagem some quando o limite é folgado (K = 500).
+* **Plano travado:** antecipa 25 (2 a menos que a DIN-1) e elimina as mudanças no plano (de 1.730 para 0).
+* **2025 (T2, base nova):** a vantagem da fila semanal diminuiu para **+3** (29 contra 26, de 79). A hipótese principal
+  da Fase D ficou **inconclusiva por poucos eventos**.
+
+Resultados preliminares: poucos eventos e um único catálogo KEV. Em caso de divergência entre este texto e um arquivo
+de resultados ou protocolo congelado, **vale o arquivo**.
+
+## Limitações a ter em mente
+
+* O **EPSS diário (~1,5 GB)** não está no Git. É público e tem manifestos com SHA-256 (nível 3).
+* O NVD muda com o tempo: por isso os dados de 2024 e 2025 usados estão preservados em `dados_compactados/`.
+* Ainda falta **registrar formalmente** como e quando a T2 foi executada (data, comando, execução única).
+  Ver `extensao/docs/ATUALIZACAO_FASE_D_2026-11-22.md`.
+* Testado com Python 3.12 (Windows). Os resultados originais foram gerados com Python 3.13 (Linux). A reprodução
+  completa deu resultados idênticos (tabelas, JSON e logs descompactados), exceto quebras de linha e o
+  `ambiente.json`, que só registra a máquina.
 
 ## Regras do projeto
 
-- Não modificar a Fase A nem nenhum arquivo listado nos manifestos de `freeze/`.
-- Gravar resultados novos em pastas novas e registrar todo desvio do protocolo, com data e motivo, em `docs/`.
-- Não alterar hipóteses, limiares ou parâmetros depois de ver dados da coorte confirmatória (T2).
-- As políticas só leem dados por `estado.py`, usando apenas informação disponível até o dia anterior à decisão.
-- Não introduzir aprendizado de máquina sem decisão explícita da pesquisadora.
-- Os arquivos usam `-text` no `.gitattributes`: não converter quebras de linha, pois os hashes SHA-256 dependem dos bytes exatos.
+* Não modificar a Fase A nem nenhum arquivo listado nos manifestos de `extensao/freeze/`.
+* Resultados novos vão para pastas novas; todo desvio do protocolo é registrado, com data e motivo, em `extensao/docs/`.
+* Não alterar hipóteses, limiares ou parâmetros depois de ver dados da coorte confirmatória (T2).
+* As políticas só leem dados por `estado.py`, usando apenas informação disponível até o dia anterior à decisão.
+* Não há aprendizado de máquina sem decisão explícita da pesquisadora.
+* O `.gitattributes` usa `-text`: não converta quebras de linha, pois os hashes SHA-256 dependem dos bytes exatos.

@@ -4,12 +4,27 @@ venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+.verificacao/
 
-# Dados brutos grandes (recriaveis pelos scripts de coleta; ver CONTINUIDADE.md)
-# O catalogo KEV congelado (extensao/data/raw/kev/) e pequeno e FICA versionado.
+# --- Dados brutos grandes: ficam fora do Git ------------------------------------------------
+# Os recriáveis (EPSS diário) são baixados pelos scripts; os não reproduzíveis (NVD) estão
+# compactados em dados_compactados/. Ver extensao/data/raw/LEIAME.md.
+# O catálogo KEV congelado e os manifestos (listas de SHA-256) FICAM versionados.
 extensao/data/raw/*
 !extensao/data/raw/kev/
-projeto/data/nvd-2024-raw/
+!extensao/data/raw/LEIAME.md
+!extensao/data/raw/epss_daily/
+!extensao/data/raw/epss_daily_v4/
+!extensao/data/raw/nvd-2025/
+extensao/data/raw/epss_daily/*
+!extensao/data/raw/epss_daily/manifest.json
+extensao/data/raw/epss_daily_v4/*
+!extensao/data/raw/epss_daily_v4/manifest.json
+extensao/data/raw/nvd-2025/*
+!extensao/data/raw/nvd-2025/manifest.json
+
+projeto/data/nvd-2024-raw/*
+!projeto/data/nvd-2024-raw/manifest.json
 projeto/data/nvd-2024-filtered.jsonl
 projeto/data/nvd-2024-filtered-variant.jsonl
 

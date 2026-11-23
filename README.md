@@ -16,7 +16,7 @@ Não é preciso baixar nada para os níveis 1 e 2: os dados necessários estão 
 | Nível | O que faz | Comando | Tempo | Internet |
 |---|---|---|---|---|
 | **0. Ler** | Ver resultados, tabelas e figuras já gerados | abrir `extensao/results/` | 0 | não |
-| **1. Verificar** | Confere ambiente, protocolos congelados (SHA-256), manifestos e roda os testes | `python verificar.py` | ~3 min | não |
+| **1. Verificar** | Confere ambiente, protocolos congelados (SHA-256), manifestos e roda os testes | `python verificar.py` | 1 a 3 min | não |
 | **2. Reproduzir** | **Refaz os resultados das Fases A, B, C e D** numa pasta temporária e compara com os versionados | `python verificar.py --reproduzir --rapido` (sem as 20 sementes) ou `--reproduzir` (completo) | ~8 min / ~20 min | não |
 | **3. Do zero** | Baixa o EPSS diário (~1,5 GB) e reconstrói os dados derivados | ver `extensao/data/raw/LEIAME.md` | horas | sim |
 
@@ -48,7 +48,8 @@ nível 2: sem ele, a reprodução da Fase A é pulada, com um aviso.
 
 * **Quatro testes são "pulados" (skipped), não falham.** Um depende dos arquivos diários do EPSS (nível 3), um confere
   o ambiente virtual (`.venv`) que a Fase A tinha na época, e dois foram adiados pelo próprio protocolo. O motivo
-  de cada um é impresso.
+  de cada um é impresso. Se você ainda não rodou `--preparar-dados`, mais nove testes (que usam os dados do NVD)
+  também são pulados, com a instrução de como habilitá-los.
 * **Avisos sobre o manifesto do EPSS v4:** um hash do manifesto da Fase D não bate com o arquivo atual. É uma divergência
   que já veio no material recebido; está explicada na saída e em `extensao/docs/ATUALIZACAO_FASE_D_2026-11-22.md`.
 * **Windows:** o `verificar.py` já ativa o modo UTF-8 do Python. Se você rodar os módulos à mão, faça antes

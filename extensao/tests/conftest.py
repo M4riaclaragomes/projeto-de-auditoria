@@ -50,9 +50,25 @@ DEPENDE_DE_DADOS = {
 }
 
 
+def _fase_a_descompactada() -> bool:
+    """Páginas do NVD 2024 e corpus da variante já descompactados (python verificar.py --preparar-dados)."""
+    paginas = list((FASE_A / "data" / "nvd-2024-raw").glob("*_start-*.json"))
+    return len(paginas) >= 23 and (FASE_A / "data" / "nvd-2024-filtered-variant.jsonl").exists()
+
+
+MOTIVO_FASE_A = ("os dados do NVD 2024 estão compactados em dados_compactados/ e ainda não foram "
+                 "descompactados. Rode `python verificar.py --preparar-dados` na raiz do repositório.")
+
+
 def pytest_collection_modifyitems(config, items):
     cache = {}
     for item in items:
+        if "tem_fase_a" in getattr(item, "fixturenames", ()):
+            if _fase_a_descompactada not in cache:
+                cache[_fase_a_descompactada] = _fase_a_descompactada()
+            if not cache[_fase_a_descompactada]:
+                item.add_marker(pytest.mark.skip(reason=MOTIVO_FASE_A))
+            continue
         regra = DEPENDE_DE_DADOS.get(item.name)
         if regra is None:
             continue
